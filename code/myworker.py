@@ -77,7 +77,7 @@ fileResultERR.close()
 with open(pathToListHash) as fileTmp:
     readFile = fileTmp.readlines()
     for i in readFile:
-        print(i)
+#        print(i)
         if i.splitlines()[0] in str(readFileResultERR):
             continue
         with open(file_csv_bad, 'a', newline='') as csvfile:
