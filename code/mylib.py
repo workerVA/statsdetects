@@ -3,7 +3,9 @@ import os
 import shutil
 import threading
 import requests
-
+import re
+import csv
+import pandas as pd
 
 def down_git_branch(lname,pname,rname,foldrep,branch):
     if os.path.exists(foldrep):
@@ -31,3 +33,26 @@ def installCodeql():
     os.system("cd /opt/&&sudo mkdir codeqlmy&&cd codeqlmy&&sudo git clone https://github.com/github/codeql.git codeql-repo") 
     os.system("cd /opt/codeqlmy&&sudo wget https://github.com/github/codeql-cli-binaries/releases/download/v"+dataVerIns+"/codeql-linux64.zip&&sudo unzip codeql-linux64.zip&&sudo rm codeql-linux64.zip")
 
+
+def gogo_fidt(findStr,urlHash,file_csv,foldname):
+
+    pattern = re.compile(findStr)
+    fieldnames = ['hash', 'line', 'regex', 'end_url']
+    regex = re.compile('(.*\.c.*$)|(.*\.h.*$)')
+
+    for root, dirs, files in os.walk(foldname):
+        for file in files:
+            if regex.match(file):
+#                print(os.path.join(root, file))
+                if os.path.isfile(os.path.join(root, file)): 
+                    for i, line in enumerate(open(os.path.join(root, file),encoding='utf8', errors='ignore')):
+                        for match in re.finditer(pattern, line):
+                            if not os.path.exists(file_csv):
+                                with open(file_csv, 'w', newline='') as csvfile:
+                                    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)    
+                                    writer.writeheader()
+                            with open(file_csv, 'a', newline='') as csvfile:
+                                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                                writer.writerow({'hash': urlHash, 'line': line,
+                                    'regex':findStr,
+                                    'end_url':os.path.join(root, file)+":"+str(i+1)})
