@@ -1,0 +1,937 @@
+hash,line,regex,end_url
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"            rd = recv(fd, x, (cl>(long long)sizeof(x)?sizeof(x):(size_t)cl), 0);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/tests/scgi-responder.c:156
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        n = kevent(scf->fd, NULL, 0, kevl, sizeof(kevl)/sizeof(*kevl), &t0);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/stat_cache.c:422
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    } while (n == sizeof(kevl)/sizeof(*kevl));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/stat_cache.c:453
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    if (toSend > (off_t)sizeof(buf)) toSend = (off_t)sizeof(buf);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/network_write.c:160
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"	  (sizeof(offsets)+sizeof(plugin_fn_data)-1) / sizeof(plugin_fn_data);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/plugin.c:509
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    digest_iov(ai->digest, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_authn_file.c:192
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    nettle_arcfour_crypt(ctx, sizeof(buf), buf, buf);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/rand.c:238
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    nettle_arcfour_crypt(ctx, sizeof(buf), buf, buf);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/rand.c:239
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    nettle_arcfour_crypt(ctx, sizeof(buf), buf, buf);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/rand.c:240
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    nettle_arcfour_crypt(&arcfour_ctx, sizeof(i), (uint8_t *)&i, (uint8_t *)&i);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/rand.c:397
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"            nettle_yarrow256_seed(&yarrow256_ctx, sizeof(seed_file), seed_file);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/rand.c:475
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                if (n < sizeof(laddr.s)) memcpy(laddr.s, b->ptr, (laddr.n = n));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/request.c:192
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"            if (len < sizeof(laddr.s)) memcpy(laddr.s, buf, (laddr.n = len));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/request.c:242
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    uint32_t dlen = len < (off_t)sizeof(buf) ? (uint32_t)len : sizeof(buf);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/chunk.c:1388
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_status.c:786
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"	MD5_iov(h, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_usertrack.c:170
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x1node) + sizeof(x1node*))*1024 );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/lemon.c:3823
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x1node) + sizeof(x1node*))*size );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/lemon.c:3862
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x2node) + sizeof(x2node*))*128 );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/lemon.c:3986
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x2node) + sizeof(x2node*))*size );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/lemon.c:4026
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x3node) + sizeof(x3node*))*128 );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/lemon.c:4193
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x3node) + sizeof(x3node*))*size );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/lemon.c:4233
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x4node) + sizeof(x4node*))*64 );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/lemon.c:4346
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x4node) + sizeof(x4node*))*size );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/lemon.c:4385
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    const int idsz = (int)(sizeof(ids)/sizeof(*ids)-1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3568
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_TLSv12)/sizeof(*suite_TLSv12)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3760
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_TLSv10)/sizeof(*suite_TLSv10)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3770
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_SSLv3)/sizeof(*suite_SSLv3)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3781
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_HIGH)/sizeof(*suite_HIGH)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3848
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_AES_256)/sizeof(*suite_AES_256)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3862
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_AES_128)/sizeof(*suite_AES_128)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3877
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_ARIA_256)/sizeof(*suite_ARIA_256)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3924
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_ARIA_128)/sizeof(*suite_ARIA_128)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3939
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_RSA_PSK)/sizeof(*suite_RSA_PSK)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3964
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_PSK)/sizeof(*suite_PSK)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3968
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_3DES)/sizeof(*suite_3DES)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3978
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_RC4)/sizeof(*suite_RC4)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:3991
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_null)/sizeof(*suite_null)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:4003
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    const int idsz = (int)(sizeof(ids)/sizeof(*ids)-1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:4073
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    const int idsz = (int)(sizeof(ids)/sizeof(*ids)-1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_mbedtls.c:4131
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        MD5_iov(HA1, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_authn_dbi.c:410
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        SHA256_iov(HA1, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_authn_dbi.c:413
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"          li_utostrn(n, sizeof(n), (unsigned long)ts.tv_nsec);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/log.c:115
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/log.c:153
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    force_assert(h2c->rused < sizeof(h2c->r)/sizeof(*h2c->r));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/h2.c:2732
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    MD5_iov(digest, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/algo_hmac.c:72
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        buffer_append_iovec(b, iov+(0==i), sizeof(iov)/sizeof(*iov)-(0==i));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_auth.c:1085
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    memset(&dp, 0, sizeof(dp) - sizeof(dp.rdigest));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_auth.c:1515
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_webdav.c:817
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_webdav.c:831
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_webdav.c:892
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_webdav.c:965
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    buffer_append_iovec(b, iovb, sizeof(iovb)/sizeof(*iovb));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_webdav.c:991
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        const int cache_sz =(int)(sizeof(p->cache_user)/sizeof(*p->cache_user));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_userdir.c:189
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"			MD5_iov(HA1, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_secdownload.c:161
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"	buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_dirlisting.c:841
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"			buffer_append_iovec(p->jb, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_dirlisting.c:1122
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"		buffer_append_iovec(out, iov, sizeof(iov)/sizeof(*iov));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mod_dirlisting.c:1229
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    XXH_memcpy(statePtr, &state, sizeof(state) - sizeof(state.reserved));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/algo_xxhash.h:2187
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    XXH_memcpy(statePtr, &state, sizeof(state) - sizeof(state.reserved64));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/algo_xxhash.h:2603
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"            bits_used = henc->lens - (sizeof(bits) * 8 - bits_used);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/ls-hpack/lshpack.c:732
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"            bits_used = cur_enc_code.bits - (sizeof(bits) * 8 - bits_used);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/ls-hpack/lshpack.c:771
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    test_mod_evhost_build_doc_root_path_loop(tt1, sizeof(tt1)/sizeof(tt1[0]), authority, b, a);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/t/test_mod_evhost.c:55
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    test_mod_evhost_build_doc_root_path_loop(tt2, sizeof(tt2)/sizeof(tt2[0]), authority, b, a);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/t/test_mod_evhost.c:58
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    test_mod_evhost_build_doc_root_path_loop(tt3, sizeof(tt3)/sizeof(tt3[0]), authority, b, a);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/t/test_mod_evhost.c:61
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    if (rlen > sizeof(buf) - (p - buf) - 2)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/tests/scgi-responder.c:97
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"            rd = recv(fd, x, (cl>(long long)sizeof(x)?sizeof(x):(size_t)cl), 0);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/tests/scgi-responder.c:156
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        n = kevent(scf->fd, NULL, 0, kevl, sizeof(kevl)/sizeof(*kevl), &t0);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/stat_cache.c:422
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    } while (n == sizeof(kevl)/sizeof(*kevl));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/stat_cache.c:453
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"#define YY_SZ_ACTTAB (sizeof(yy_action)/sizeof(yy_action[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/lempar.c:111
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"  if( tokenType>0 && (size_t)tokenType<(sizeof(yyTokenName)/sizeof(yyTokenName[0])) ){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/lempar.c:217
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        && (size_t)yyruleno<sizeof(yyRuleName)/sizeof(yyRuleName[0]) ){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/lempar.c:466
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    digest_iov(ai->digest, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_authn_file.c:192
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    for (unsigned int u = 0; u < sizeof(devices)/sizeof(devices[0]); ++u) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/rand.c:176
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    nettle_arcfour_crypt(&arcfour_ctx, sizeof(i), (uint8_t *)&i, (uint8_t *)&i);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/rand.c:397
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                if (n < sizeof(laddr.s)) memcpy(laddr.s, b->ptr, (laddr.n = n));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/request.c:192
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"            if (len < sizeof(laddr.s)) memcpy(laddr.s, buf, (laddr.n = len));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/request.c:242
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        if (__builtin_expect( (iovcnt == sizeof(iov)/sizeof(*iov)), 0))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/chunk.c:959
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    if (__builtin_expect( (iovcnt < sizeof(iov)/sizeof(*iov)), 1)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/chunk.c:971
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"            if (__builtin_expect( (iovcnt == sizeof(iov)/sizeof(*iov)), 0))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/chunk.c:980
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"         sizeof(time_t) > 4 || (sizeof(time_t) == 4 && (time_t)-1 > (time_t)1)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/server.c:740
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_status.c:786
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        if ((sizeof(off_t) > sizeof(size_t) && st.st_size >= (off_t)~(size_t)0u)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/fdevent.c:594
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"	MD5_iov(h, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_usertrack.c:170
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x1node) + sizeof(x1node*))*1024 );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/lemon.c:3823
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x1node) + sizeof(x1node*))*size );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/lemon.c:3862
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x2node) + sizeof(x2node*))*128 );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/lemon.c:3986
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x2node) + sizeof(x2node*))*size );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/lemon.c:4026
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x3node) + sizeof(x3node*))*128 );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/lemon.c:4193
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x3node) + sizeof(x3node*))*size );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/lemon.c:4233
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x4node) + sizeof(x4node*))*64 );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/lemon.c:4346
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      (sizeof(x4node) + sizeof(x4node*))*size );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/lemon.c:4385
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    for (uint32_t i = 0; i < sizeof(suite_RC4)/sizeof(suite_RC4[0]); ++i) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3499
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    for (uint32_t i = 0; i < sizeof(suite_weak)/sizeof(suite_weak[0]); ++i) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3504
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    for (uint32_t i = 0; i < sizeof(suite_null)/sizeof(suite_null[0]); ++i) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3508
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    const int idsz = (int)(sizeof(ids)/sizeof(*ids)-1);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3568
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_TLSv12)/sizeof(*suite_TLSv12)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3760
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_TLSv10)/sizeof(*suite_TLSv10)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3770
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_SSLv3)/sizeof(*suite_SSLv3)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3781
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_HIGH)/sizeof(*suite_HIGH)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3848
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_AES_256)/sizeof(*suite_AES_256)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3862
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_AES_128)/sizeof(*suite_AES_128)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3877
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_ARIA_256)/sizeof(*suite_ARIA_256)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3924
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_ARIA_128)/sizeof(*suite_ARIA_128)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3939
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_RSA_PSK)/sizeof(*suite_RSA_PSK)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3964
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_PSK)/sizeof(*suite_PSK)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3968
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_3DES)/sizeof(*suite_3DES)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3978
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_RC4)/sizeof(*suite_RC4)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:3991
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"                         (int)(sizeof(suite_null)/sizeof(*suite_null)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:4003
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    const int idsz = (int)(sizeof(ids)/sizeof(*ids)-1);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:4073
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    const int idsz = (int)(sizeof(ids)/sizeof(*ids)-1);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_mbedtls.c:4131
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        if (++hoff[0] >= /*sizeof(hoff)/sizeof(hoff[0])-1*/ 8192-1) break;
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/http_header.c:371
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        MD5_iov(HA1, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_authn_dbi.c:410
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        SHA256_iov(HA1, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_authn_dbi.c:413
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    for (uint32_t i = 0; i < sizeof(sigs)/sizeof(*sigs); ++i) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_cgi.c:267
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"          li_utostrn(n, sizeof(n), (unsigned long)ts.tv_nsec);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/log.c:115
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/log.c:153
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        if (h2c->rused == sizeof(h2c->r)/sizeof(*h2c->r))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/h2.c:1499
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    force_assert(h2c->rused < sizeof(h2c->r)/sizeof(*h2c->r));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/h2.c:2732
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    MD5_iov(digest, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/algo_hmac.c:72
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        for (unsigned int i = 0; i < sizeof(facility_names)/sizeof(facility_names[0]); ++i) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/configfile.c:1595
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        buffer_append_iovec(b, iov+(0==i), sizeof(iov)/sizeof(*iov)-(0==i));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_auth.c:1085
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    memset(&dp, 0, sizeof(dp) - sizeof(dp.rdigest));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_auth.c:1515
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_webdav.c:817
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_webdav.c:831
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_webdav.c:892
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_webdav.c:965
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    buffer_append_iovec(b, iovb, sizeof(iovb)/sizeof(*iovb));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_webdav.c:991
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"      li_itostrn(tbuf+sizeof(""Second-"")-1, sizeof(tbuf)-(sizeof(""Second-"")-1),
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_webdav.c:1058
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    return ((unsigned int)i < sizeof(http_methods)/sizeof(*http_methods)-2)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/http_kv.c:142
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    return (i < sizeof(http_methods)/sizeof(*http_methods)-2)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/http_kv.c:195
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        const int cache_sz =(int)(sizeof(p->cache_user)/sizeof(*p->cache_user));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_userdir.c:189
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"	for (ndx = 1; ndx < sizeof(secdl_algorithm_names)/sizeof(secdl_algorithm_names[0]); ++ndx) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_secdownload.c:108
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"			MD5_iov(HA1, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_secdownload.c:161
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"	buffer_append_iovec(b, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_dirlisting.c:841
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"			buffer_append_iovec(p->jb, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_dirlisting.c:1122
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"		buffer_append_iovec(out, iov, sizeof(iov)/sizeof(*iov));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_dirlisting.c:1229
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        for (i = 0; i < sizeof(names)/sizeof(*names)/2; i += 2) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_gnutls.c:3413
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        if (i == sizeof(names)/sizeof(*names)/2) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_gnutls.c:3417
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        for (unsigned int j = 0; j < sizeof(alpn)/sizeof(*alpn); ++j) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_nss.c:1356
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    for (uint32_t i = 0; i < sizeof(comp)/sizeof(*comp); ++i) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mod_nss.c:2560
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    XXH_memcpy(statePtr, &state, sizeof(state) - sizeof(state.reserved));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/algo_xxhash.h:2187
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    XXH_memcpy(statePtr, &state, sizeof(state) - sizeof(state.reserved64));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/algo_xxhash.h:2603
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"#define NAME_VAL(a, b) sizeof(a) - 1, sizeof(b) - 1, (a), (b)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/ls-hpack/lshpack.c:64
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    test_mod_evhost_build_doc_root_path_loop(tt1, sizeof(tt1)/sizeof(tt1[0]), authority, b, a);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/t/test_mod_evhost.c:55
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    test_mod_evhost_build_doc_root_path_loop(tt2, sizeof(tt2)/sizeof(tt2[0]), authority, b, a);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/t/test_mod_evhost.c:58
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    test_mod_evhost_build_doc_root_path_loop(tt3, sizeof(tt3)/sizeof(tt3[0]), authority, b, a);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/t/test_mod_evhost.c:61
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"	for (unsigned int enc = 0; enc < sizeof(encs)/sizeof(*encs); ++enc) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/t/test_base64.c:51
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"    for (uint32_t i = 0; i < sizeof(c)/sizeof(*c); ++i)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/t/test_mod_evasive.c:62
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"	for (int i = 0; i < (int)(sizeof(rmtmask)/sizeof(rmtmask[0])); ++i) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/t/test_configfile.c:57
+53b8fd72cd37dee4f66679c3735e9b6d05bcc109c30cc14a65d60f91827f665a2a032fc30cc85258b7195908cd98fa1045eaa62f3cce6ae57b49b3ca7727f5bd,"        if (++hloffsets[0] >= sizeof(hloffsets)/sizeof(*hloffsets)) break;
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/t/test_request.c:35
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"  while (Ufgets(buffer, sizeof(buffer), f) != NULL) text_show(text, buffer);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/exim_monitor/em_menu.c:158
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"              mime_body < (reason_end-(sizeof(nlnl)-1)) && memcmp(mime_body, nlnl, (sizeof(nlnl)-1));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/src/sieve.c:3353
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"            if (mime_body+(sizeof(nlnl)-1)<reason_end) mime_body+=(sizeof(nlnl)-1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/src/sieve.c:3358
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"  assert(sizeof(argv)/sizeof(argv[0]) > argc);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/src/perl.c:113
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"    string_format(p, sizeof(sx->buffer) - (p-sx->buffer), "" ENVID=%s"", dsn_envid);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/src/transports/smtp.c:3306
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"      memcpy(cache_time + sizeof(time_t), to, add_size - sizeof(time_t));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/src/transports/autoreply.c:718
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"    rc = (retry_read(fd, &count, sizeof(count)) < (int) sizeof(count));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/src/auths/pwcheck.c:288
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"if (read(fd, &len, sizeof(int)) != sizeof(int)) return FALSE;
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/rda.c:472
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"    if (write(fd, &i, sizeof(i)) != sizeof(i))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/rda.c:684
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"  if (write(fd, filter_n, sizeof(filter_n)) != sizeof(filter_n))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/rda.c:703
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"        if (write(fd, &reply_options, sizeof(int)) != sizeof(int))    /* 0 means no reply */
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/rda.c:737
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"    if (read(fd, &n, sizeof(int)) != sizeof(int)) goto DISASTER;
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/rda.c:831
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"    if (read(fd, &type, sizeof(type)) != sizeof(type)) goto DISASTER;
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/rda.c:847
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"if (read(fd, filter_n, sizeof(filter_n)) != sizeof(filter_n)) goto DISASTER;
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/rda.c:854
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"    if (read(fd, &reply_options, sizeof(int)) != sizeof(int)) goto DISASTER;
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/rda.c:917
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"              mime_body < (reason_end-(sizeof(nlnl)-1)) && memcmp(mime_body, nlnl, (sizeof(nlnl)-1));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/sieve.c:3353
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"            if (mime_body+(sizeof(nlnl)-1)<reason_end) mime_body+=(sizeof(nlnl)-1);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/sieve.c:3358
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"  assert(sizeof(argv)/sizeof(argv[0]) > argc);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/perl.c:113
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"  (sizeof(void *) > sizeof(double) ? sizeof(void *) : sizeof(double))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/store.c:91
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"      if (read(pfd[pipe_read], (void *)&ok, sizeof(BOOL)) != sizeof(BOOL))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/transport.c:1395
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"    if(  (i = addr2->transport_return, (ret = write(pfd[pipe_write], &i, sizeof(int))) != sizeof(int))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/deliver.c:2415
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"      || (i = addr2->special_action, (ret = write(pfd[pipe_write], &i, sizeof(int))) != sizeof(int))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/deliver.c:2421
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"if (!Ufgets(buffer, sizeof(buffer), f) || Ustrcmp(buffer, ""****\n"") == 0)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/deliver.c:5201
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"  if (!Ufgets(buffer, sizeof(buffer), f) || Ustrcmp(buffer, ""****\n"") == 0)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/deliver.c:5208
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"#define nelem(arr) (sizeof(arr) / sizeof(*arr))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/macros.h:17
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"if ((count = read(fd, buffer, sizeof(buffer))) >= sizeof(buffer))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/transports/tf_maildir.c:394
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"# define nelem(arr) (sizeof(arr)/sizeof(*arr))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/transports/smtp_socks.c:17
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"    string_format(p, sizeof(sx->buffer) - (p-sx->buffer), "" ENVID=%s"", dsn_envid);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/transports/smtp.c:3306
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"      memcpy(cache_time + sizeof(time_t), to, add_size - sizeof(time_t));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/transports/autoreply.c:718
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"    rc = (retry_read(fd, &count, sizeof(count)) < (int) sizeof(count));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/auths/pwcheck.c:288
+efb406fcb84be2788a76a592d5bd9896f203639c18558950179e70c3341a3f3ed9241f62472e5a4b39aa4877fbeb6e48fad8b57017120e7469135b15f471b83e,"# define nele(arr) (sizeof(arr) / sizeof(*arr))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/src/lookups/redis.c:18
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	list = xcalloc((sizeof(cmds) / sizeof(*cmds)) + 1, sizeof(char *));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/sftp.c:1884
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"		RAND_add(buf, sizeof(buf), sizeof(buf));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/entropy.c:115
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	stride = (keylen + sizeof(out) - 1) / sizeof(out);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/openbsd-compat/bcrypt_pbkdf.c:134
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	.len = (unsigned short)(sizeof(preauth_insns)/sizeof(preauth_insns[0])),
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/sandbox-seccomp-filter.c:339
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"		if ((size_t)argc >= sizeof(argv) / sizeof(*argv)){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/sftp.c:1192
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	list = xcalloc((sizeof(cmds) / sizeof(*cmds)) + 1, sizeof(char *));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/sftp.c:1884
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"			if (strlcpy(cmd, line, sizeof(cmd)) >= sizeof(cmd)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/sftp.c:2280
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"		    strlcat(old, "".old"", sizeof(old)) >= sizeof(old))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/ssh-keygen.c:1327
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"		RAND_add(buf, sizeof(buf), sizeof(buf));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/entropy.c:115
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"		if (atomicio(read, fd, buf, sizeof(buf)) != sizeof(buf)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/sshkey-xmss.c:407
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	if (atomicio(vwrite, fd, buf, sizeof(buf)) != sizeof(buf)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/sshkey-xmss.c:624
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	if (atomicio(vwrite, sock, buf, sizeof(buf)) != sizeof(buf))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/monitor_wrap.c:134
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	if (atomicio(read, sock, buf, sizeof(buf)) != sizeof(buf)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/monitor_wrap.c:149
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	 (sizeof(type) != 4 && sizeof(type) != 8))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/scp.c:1580
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"			if (atomicio(read, remin, &ch, sizeof(ch)) != sizeof(ch))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/scp.c:1637
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	if (atomicio(read, remin, &resp, sizeof(resp)) != sizeof(resp))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/scp.c:1980
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"			if (atomicio(read, remin, &ch, sizeof(ch)) != sizeof(ch))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/scp.c:1993
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"#define MIN_SIZEOF(s1,s2) (sizeof(s1) < sizeof(s2) ? sizeof(s1) : sizeof(s2))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/loginrec.c:220
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"		if (atomicio(vwrite, fd, ut, sizeof(*ut)) != sizeof(*ut)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/loginrec.c:910
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"		if (atomicio(vwrite, fd, ut, sizeof(*ut)) != sizeof(*ut)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/loginrec.c:1104
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"		if (atomicio(read, fd, &ut, sizeof(ut)) != sizeof(ut)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/loginrec.c:1212
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"		if (atomicio(vwrite, fd, utx, sizeof(*utx)) != sizeof(*utx)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/loginrec.c:1277
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"		if (atomicio(read, fd, &utx, sizeof(utx)) != sizeof(utx)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/loginrec.c:1377
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"		if (atomicio(vwrite, fd, &last, sizeof(last)) != sizeof(last)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/loginrec.c:1555
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	if (atomicio(vwrite, fd, &ut, sizeof(ut)) != sizeof(ut))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/loginrec.c:1723
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	if (p == NULL || strlcpy(addrbuf, p, sizeof(addrbuf)) >= sizeof(addrbuf))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/addr.c:393
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	if (atomicio(vwrite, fd, buf, sizeof(buf)) != sizeof(buf)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/msg.c:54
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	if (atomicio(read, fd, buf, sizeof(buf)) != sizeof(buf)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/msg.c:74
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	for (i = 0; i < sizeof(esc_txt)/sizeof(esc_txt[0]); i++) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/clientloop.c:919
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	if (atomicio(vwrite, fd, msg, sizeof(msg)) != sizeof(msg)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/openbsd-compat/port-prngd.c:119
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"#define	SCALE_LENGTH (sizeof(units)/sizeof(units[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/openbsd-compat/fmt_scaled.c:68
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"#define NCCLASSES	(sizeof(cclasses) / sizeof(cclasses[0]) - 1)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/openbsd-compat/charclass.h:31
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"    if (len > 0 && (size_t)len < sizeof(fdpath) && (dirp = opendir(fdpath))) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/openbsd-compat/bsd-closefrom.c:139
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	for (i = 0; i < sizeof(version_tests) / sizeof(version_tests[0]); i++) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/openbsd-compat/regress/opensslvertest.c:63
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	(sizeof(*(su)) - sizeof((su)->sun_path) + strlen((su)->sun_path))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/regress/netcat.c:84
+2449b6554e8219201af2b907a0b09b96f9d723e13056891c8ad13056b0ae489695b4671bd0a1c065ec379634feb39dfb44848c7c8174b221dcb13dcb59ebf229,"	for (i = 0; i < (sizeof(lens)/sizeof(lens[0])); i++) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/regress/unittests/sshkey/test_sshkey.c:160
+7219a43de2ce16450382686c90704905202cfdc87447569b44484a7932c83105d7b1fa50752851aa72fb100deac94261a5294890c06f7e8d0fd852827f7e83ae,"	memcpy(d.buffer->data + sizeof(code), message, d.len - sizeof(code));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/server/dhcpleasequery.c:898
+7219a43de2ce16450382686c90704905202cfdc87447569b44484a7932c83105d7b1fa50752851aa72fb100deac94261a5294890c06f7e8d0fd852827f7e83ae,"	(sizeof(dhcpv6_type_names) / sizeof(dhcpv6_type_names[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/common/tables.c:687
+7219a43de2ce16450382686c90704905202cfdc87447569b44484a7932c83105d7b1fa50752851aa72fb100deac94261a5294890c06f7e8d0fd852827f7e83ae,"		    strncat (s1, val, sizeof(s1)-strlen(s1)-1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/dhcpctl/omshell.c:513
+7219a43de2ce16450382686c90704905202cfdc87447569b44484a7932c83105d7b1fa50752851aa72fb100deac94261a5294890c06f7e8d0fd852827f7e83ae,"		    strncat (s1, val, sizeof(s1)-strlen(s1)-1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/dhcpctl/omshell.c:621
+7219a43de2ce16450382686c90704905202cfdc87447569b44484a7932c83105d7b1fa50752851aa72fb100deac94261a5294890c06f7e8d0fd852827f7e83ae,"		r = makeString(sizeof(val), (char *)&val);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/keama/eval.c:932
+7219a43de2ce16450382686c90704905202cfdc87447569b44484a7932c83105d7b1fa50752851aa72fb100deac94261a5294890c06f7e8d0fd852827f7e83ae,"		r = makeString(sizeof(val), (char *)&val);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/keama/eval.c:966
+7219a43de2ce16450382686c90704905202cfdc87447569b44484a7932c83105d7b1fa50752851aa72fb100deac94261a5294890c06f7e8d0fd852827f7e83ae,"		r = makeString(sizeof(val), (char *)&val);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/keama/eval.c:1000
+7219a43de2ce16450382686c90704905202cfdc87447569b44484a7932c83105d7b1fa50752851aa72fb100deac94261a5294890c06f7e8d0fd852827f7e83ae,"	memcpy(d.buffer->data + sizeof(code), message, d.len - sizeof(code));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/server/dhcpleasequery.c:898
+7219a43de2ce16450382686c90704905202cfdc87447569b44484a7932c83105d7b1fa50752851aa72fb100deac94261a5294890c06f7e8d0fd852827f7e83ae,"	(sizeof(dhcpv6_type_names) / sizeof(dhcpv6_type_names[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/common/tables.c:687
+7219a43de2ce16450382686c90704905202cfdc87447569b44484a7932c83105d7b1fa50752851aa72fb100deac94261a5294890c06f7e8d0fd852827f7e83ae,"		    strncat (s1, val, sizeof(s1)-strlen(s1)-1);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/dhcpctl/omshell.c:513
+7219a43de2ce16450382686c90704905202cfdc87447569b44484a7932c83105d7b1fa50752851aa72fb100deac94261a5294890c06f7e8d0fd852827f7e83ae,"		    strncat (s1, val, sizeof(s1)-strlen(s1)-1);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/dhcpctl/omshell.c:621
+46c909d572a80002b3683096495b780c2bfef936594a29c21d87bb7fbf3fa2145341b7b057a1f093714fcc82600b07711550660f9e1af1dcbe3725676167ed33,"        ((maxval <= 255) ? sizeof(U_CHAR) : (2 * sizeof(U_CHAR)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/rdppm.c:702
+46c909d572a80002b3683096495b780c2bfef936594a29c21d87bb7fbf3fa2145341b7b057a1f093714fcc82600b07711550660f9e1af1dcbe3725676167ed33,"        ((maxval <= 255) ? sizeof(U_CHAR) : (2 * sizeof(U_CHAR)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/rdppm.c:705
+46c909d572a80002b3683096495b780c2bfef936594a29c21d87bb7fbf3fa2145341b7b057a1f093714fcc82600b07711550660f9e1af1dcbe3725676167ed33,"        ((maxval <= 255) ? sizeof(U_CHAR) : (2 * sizeof(U_CHAR)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/rdppm.c:702
+46c909d572a80002b3683096495b780c2bfef936594a29c21d87bb7fbf3fa2145341b7b057a1f093714fcc82600b07711550660f9e1af1dcbe3725676167ed33,"        ((maxval <= 255) ? sizeof(U_CHAR) : (2 * sizeof(U_CHAR)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/rdppm.c:705
+1a172264201fbca34fbcd585961fd88bf38ff896f922cad5de1b099d465bf9aaaa2f2a603c49bde570d8b8b35ba3bfc1900308f602669b4537df12eb28d0e267,"#  define GT_OFF(x) (sizeof(int) == sizeof(z_off64_t) && (x) > gz_intmax())
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/gzguts.h:218
+0293fc243fad7563b5b503e4f0c23eff3414fab462b9c7c009425aab188ed36f9314af828c756d53084c8e52197402c9324b368b0d4b537281375feef1332e9c,"    for (currentTest = 0;currentTest < sizeof(hugeTests)/sizeof(hugeTests[0]);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/testlimits.c:124
+0293fc243fad7563b5b503e4f0c23eff3414fab462b9c7c009425aab188ed36f9314af828c756d53084c8e52197402c9324b368b0d4b537281375feef1332e9c,"	snprintf((char *) prefix, sizeof(prefix), ""%.20s"", (char *)ns->prefix);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/tree.c:6327
+0293fc243fad7563b5b503e4f0c23eff3414fab462b9c7c009425aab188ed36f9314af828c756d53084c8e52197402c9324b368b0d4b537281375feef1332e9c,"	  while ((j < (int)sizeof(buffer)) && (mblen(buffer, (size_t)j) != j));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/trio.c:5711
+0293fc243fad7563b5b503e4f0c23eff3414fab462b9c7c009425aab188ed36f9314af828c756d53084c8e52197402c9324b368b0d4b537281375feef1332e9c,"    for (i = 0;i < sizeof(limitDescriptions)/sizeof(limitDescriptions[0]);i++) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/testlimits.c:1444
+0293fc243fad7563b5b503e4f0c23eff3414fab462b9c7c009425aab188ed36f9314af828c756d53084c8e52197402c9324b368b0d4b537281375feef1332e9c,"        for (j = 0;j < sizeof(testExceptions)/sizeof(testExceptions[0]);j++) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/testlimits.c:1450
+0293fc243fad7563b5b503e4f0c23eff3414fab462b9c7c009425aab188ed36f9314af828c756d53084c8e52197402c9324b368b0d4b537281375feef1332e9c,"	  while ((j < (int)sizeof(buffer)) && (mblen(buffer, (size_t)j) != j));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/trio.c:5711
+0293fc243fad7563b5b503e4f0c23eff3414fab462b9c7c009425aab188ed36f9314af828c756d53084c8e52197402c9324b368b0d4b537281375feef1332e9c,"    if (idx >= (sizeof(IOerr) / sizeof(IOerr[0]))) idx = 0;
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/xmlIO.c:401
+0293fc243fad7563b5b503e4f0c23eff3414fab462b9c7c009425aab188ed36f9314af828c756d53084c8e52197402c9324b368b0d4b537281375feef1332e9c,"	for ( i = 0; i < sizeof(allowPCData)/sizeof(allowPCData[0]); i++ ) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/HTMLparser.c:2446
+0293fc243fad7563b5b503e4f0c23eff3414fab462b9c7c009425aab188ed36f9314af828c756d53084c8e52197402c9324b368b0d4b537281375feef1332e9c,"	for ( i = 0; i < sizeof(allowPCData)/sizeof(allowPCData[0]); i++ ) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/HTMLparser.c:2456
+bdf5987866fbafc27f8fc5f2a07c7783d341f533801211e76682a4ae0c3f351221e7b0da6392800ab269c0dc4c3684dfa9f0e7da9c06ea155f9c6cb9ad7ac2c8,"	b = (char *)malloc(sizeof(char) * ((size_t)chars + 1));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/vasprintf_compat.h:48
+bdf5987866fbafc27f8fc5f2a07c7783d341f533801211e76682a4ae0c3f351221e7b0da6392800ab269c0dc4c3684dfa9f0e7da9c06ea155f9c6cb9ad7ac2c8,"	    jerr_int >= (int)(sizeof(json_tokener_errors) / sizeof(json_tokener_errors[0])))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/json_tokener.c:134
+bdf5987866fbafc27f8fc5f2a07c7783d341f533801211e76682a4ae0c3f351221e7b0da6392800ab269c0dc4c3684dfa9f0e7da9c06ea155f9c6cb9ad7ac2c8,"#define NELEM(a) (sizeof(a) / sizeof(a[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/json_util.c:272
+bdf5987866fbafc27f8fc5f2a07c7783d341f533801211e76682a4ae0c3f351221e7b0da6392800ab269c0dc4c3684dfa9f0e7da9c06ea155f9c6cb9ad7ac2c8,"	b = (char *)malloc(sizeof(char) * ((size_t)chars + 1));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/vasprintf_compat.h:48
+bdf5987866fbafc27f8fc5f2a07c7783d341f533801211e76682a4ae0c3f351221e7b0da6392800ab269c0dc4c3684dfa9f0e7da9c06ea155f9c6cb9ad7ac2c8,"#define NELEM(x) (sizeof(x) / sizeof(x[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/tests/parse_flags.c:27
+9c1a5af03d68f0f0532ac8299cd27b95faf81bb1df6242032bed7690c5715d30c4a3bf007015e229e7aa76dda7db4a11b3aeaf88f6920e954a546e0b3236351d,"  struct UCD_info *ui = memset(malloc(sizeof(*ui)), 0, sizeof(*ui));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/coredump/_UCD_create.c:57
+9c1a5af03d68f0f0532ac8299cd27b95faf81bb1df6242032bed7690c5715d30c4a3bf007015e229e7aa76dda7db4a11b3aeaf88f6920e954a546e0b3236351d,"  coredump_phdr_t *phdrs = ui->phdrs = memset(malloc(size * sizeof(phdrs[0])), 0, size * sizeof(phdrs[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/coredump/_UCD_create.c:123
+9c1a5af03d68f0f0532ac8299cd27b95faf81bb1df6242032bed7690c5715d30c4a3bf007015e229e7aa76dda7db4a11b3aeaf88f6920e954a546e0b3236351d,"      Debug(2, ""register out of range: >= %zu / %zu\n"", sizeof(_UPT_reg_offset), sizeof(_UPT_reg_offset[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/ptrace/_UPT_access_reg.c:284
+9c1a5af03d68f0f0532ac8299cd27b95faf81bb1df6242032bed7690c5715d30c4a3bf007015e229e7aa76dda7db4a11b3aeaf88f6920e954a546e0b3236351d,"  struct UCD_info *ui = memset(malloc(sizeof(*ui)), 0, sizeof(*ui));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/coredump/_UCD_create.c:57
+9c1a5af03d68f0f0532ac8299cd27b95faf81bb1df6242032bed7690c5715d30c4a3bf007015e229e7aa76dda7db4a11b3aeaf88f6920e954a546e0b3236351d,"  if (read(fd, &elf_header64, sizeof(elf_header64)) != sizeof(elf_header64))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/coredump/_UCD_create.c:72
+9c1a5af03d68f0f0532ac8299cd27b95faf81bb1df6242032bed7690c5715d30c4a3bf007015e229e7aa76dda7db4a11b3aeaf88f6920e954a546e0b3236351d,"  coredump_phdr_t *phdrs = ui->phdrs = memset(malloc(size * sizeof(phdrs[0])), 0, size * sizeof(phdrs[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/coredump/_UCD_create.c:123
+9c1a5af03d68f0f0532ac8299cd27b95faf81bb1df6242032bed7690c5715d30c4a3bf007015e229e7aa76dda7db4a11b3aeaf88f6920e954a546e0b3236351d,"          if (read(fd, &hdr64, sizeof(hdr64)) != sizeof(hdr64))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/coredump/_UCD_create.c:131
+9c1a5af03d68f0f0532ac8299cd27b95faf81bb1df6242032bed7690c5715d30c4a3bf007015e229e7aa76dda7db4a11b3aeaf88f6920e954a546e0b3236351d,"          if (read(fd, &hdr32, sizeof(hdr32)) != sizeof(hdr32))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/coredump/_UCD_create.c:157
+9c1a5af03d68f0f0532ac8299cd27b95faf81bb1df6242032bed7690c5715d30c4a3bf007015e229e7aa76dda7db4a11b3aeaf88f6920e954a546e0b3236351d,"  if (read(fd, val, sizeof(*val)) != sizeof(*val))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/coredump/_UCD_access_mem.c:81
+9c1a5af03d68f0f0532ac8299cd27b95faf81bb1df6242032bed7690c5715d30c4a3bf007015e229e7aa76dda7db4a11b3aeaf88f6920e954a546e0b3236351d,"      Debug(2, ""register out of range: >= %zu / %zu\n"", sizeof(_UPT_reg_offset), sizeof(_UPT_reg_offset[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/ptrace/_UPT_access_reg.c:284
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"#define array_count(a) (sizeof(a) / (sizeof((a)[0])))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/wepoll.c:829
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"		if ((signed)sizeof(date) > evutil_date_rfc1123(date, sizeof(date), NULL)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/http.c:570
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"#define MEMBERSOF(x) (sizeof(x)/sizeof(x[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/http.c:3289
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"    (unsigned)(sizeof(name##_PRIMES)/sizeof(name##_PRIMES[0]));         \
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/ht-internal.h:312
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/test/regress_testutils.c:72
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"#define ARRAY_SIZE(x) (sizeof(x)/sizeof((x)[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/test/regress_http.c:69
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"	if (++state->i < (int) (sizeof(CHUNKS)/sizeof(CHUNKS[0]))) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/test/regress_http.c:490
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"	for (n = 0; n < sizeof(evcons)/sizeof(evcons[0]); ++n) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/test/regress_http.c:5336
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"	for (n = 0; n < sizeof(evcons)/sizeof(evcons[0]); ++n) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/test/regress_http.c:5366
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"	for (n = 0; n < sizeof(evcons)/sizeof(evcons[0]); ++n) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/test/regress_http.c:5661
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/test/regress_buffer.c:66
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/test/regress_dns.c:82
+084624ed1ea4d4be37f10451807164df9d93fb774b43ae4636d75a043e8389f7b6923186e55e42dec7480fad7059c89fa99bd62c673fc1a6a40025b6392a4e83,"    while ((n = write(fd[1], buf, sizeof(buf))) == sizeof(buf))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/cmake/CheckWorkingKqueue.cmake:29
+c4c91abacb50b6bf9c816f9b1ead55bd417ad6f2f58a86e0d888b2716fd327f9377c50e9b5c4692abce501dd6afb58d854e6fdef6400c1c044c726f3c0e26601,"  EXPECT_EQ(sizeof(kHelloString) / sizeof(kHelloString[0]) - 1, s.Length());
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/googletest/samples/sample2_unittest.cc:81
+c4c91abacb50b6bf9c816f9b1ead55bd417ad6f2f58a86e0d888b2716fd327f9377c50e9b5c4692abce501dd6afb58d854e6fdef6400c1c044c726f3c0e26601,"  const ::std::wstring str(s, sizeof(s) / sizeof(wchar_t));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/googletest/test/googletest-printers-test.cc:906
+c4c91abacb50b6bf9c816f9b1ead55bd417ad6f2f58a86e0d888b2716fd327f9377c50e9b5c4692abce501dd6afb58d854e6fdef6400c1c044c726f3c0e26601,"  EXPECT_EQ(sizeof(IsContainer), sizeof(IsContainerTest<std::vector<bool>>(0)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/googletest/test/gtest_unittest.cc:7258
+c4c91abacb50b6bf9c816f9b1ead55bd417ad6f2f58a86e0d888b2716fd327f9377c50e9b5c4692abce501dd6afb58d854e6fdef6400c1c044c726f3c0e26601,"  return FilePath(_getcwd(cwd, sizeof(cwd)) == nullptr ? """" : cwd);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/googletest/src/gtest-filepath.cc:105
+c4c91abacb50b6bf9c816f9b1ead55bd417ad6f2f58a86e0d888b2716fd327f9377c50e9b5c4692abce501dd6afb58d854e6fdef6400c1c044c726f3c0e26601,"    ::GetTempPathA(sizeof(temp_dir_path), temp_dir_path);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/googletest/src/gtest-port.cc:1051
+c4c91abacb50b6bf9c816f9b1ead55bd417ad6f2f58a86e0d888b2716fd327f9377c50e9b5c4692abce501dd6afb58d854e6fdef6400c1c044c726f3c0e26601,"  if (sizeof(double) == sizeof(long double)) {  // NOLINT
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/googlemock/test/gmock-internal-utils_test.cc:278
+c4c91abacb50b6bf9c816f9b1ead55bd417ad6f2f58a86e0d888b2716fd327f9377c50e9b5c4692abce501dd6afb58d854e6fdef6400c1c044c726f3c0e26601,"  EXPECT_EQ(sizeof(kHelloString) / sizeof(kHelloString[0]) - 1, s.Length());
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/googletest/samples/sample2_unittest.cc:81
+c4c91abacb50b6bf9c816f9b1ead55bd417ad6f2f58a86e0d888b2716fd327f9377c50e9b5c4692abce501dd6afb58d854e6fdef6400c1c044c726f3c0e26601,"  for (int i = 0; i < static_cast<int>(sizeof(a) / sizeof(*a)); i++) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/googletest/test/googletest-output-test_.cc:151
+c4c91abacb50b6bf9c816f9b1ead55bd417ad6f2f58a86e0d888b2716fd327f9377c50e9b5c4692abce501dd6afb58d854e6fdef6400c1c044c726f3c0e26601,"  const ::std::wstring str(s, sizeof(s) / sizeof(wchar_t));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/googletest/test/googletest-printers-test.cc:906
+c4c91abacb50b6bf9c816f9b1ead55bd417ad6f2f58a86e0d888b2716fd327f9377c50e9b5c4692abce501dd6afb58d854e6fdef6400c1c044c726f3c0e26601,"  for (int i = 0; i < int(sizeof(kTestdata) / sizeof(kTestdata[0])); ++i) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/googletest/test/googletest-printers-test.cc:1663
+c4c91abacb50b6bf9c816f9b1ead55bd417ad6f2f58a86e0d888b2716fd327f9377c50e9b5c4692abce501dd6afb58d854e6fdef6400c1c044c726f3c0e26601,"  EXPECT_EQ(sizeof(IsContainer), sizeof(IsContainerTest<std::vector<bool>>(0)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/googletest/test/gtest_unittest.cc:7258
+4b7dac20ef8c6c7b3c02e7137fd5237bf5ded5908163ea1310ffaaf880e30994ea03e56fe5843608cf7b325f96a067d0f9e2764f58584b9512f1a04fa18947df,"        (sizeof(buf) > num_bytes_left) ? num_bytes_left : sizeof(buf);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/symbolize.cc:203
+4b7dac20ef8c6c7b3c02e7137fd5237bf5ded5908163ea1310ffaaf880e30994ea03e56fe5843608cf7b325f96a067d0f9e2764f58584b9512f1a04fa18947df,"    SAFE_ASSERT(num_headers_in_buf <= sizeof(buf) / sizeof(buf[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/symbolize.cc:211
+4b7dac20ef8c6c7b3c02e7137fd5237bf5ded5908163ea1310ffaaf880e30994ea03e56fe5843608cf7b325f96a067d0f9e2764f58584b9512f1a04fa18947df,"# define ARRAYSIZE(a) (sizeof(a) / sizeof(*(a)))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/utilities.h:128
+4b7dac20ef8c6c7b3c02e7137fd5237bf5ded5908163ea1310ffaaf880e30994ea03e56fe5843608cf7b325f96a067d0f9e2764f58584b9512f1a04fa18947df,"    SAFE_ASSERT(num_headers_in_buf <= sizeof(buf) / sizeof(buf[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/symbolize.cc:211
+4b7dac20ef8c6c7b3c02e7137fd5237bf5ded5908163ea1310ffaaf880e30994ea03e56fe5843608cf7b325f96a067d0f9e2764f58584b9512f1a04fa18947df,"  if (!ReadFromOffsetExact(fd, &shstrtab, sizeof(shstrtab), shstrtab_offset)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/symbolize.cc:239
+4b7dac20ef8c6c7b3c02e7137fd5237bf5ded5908163ea1310ffaaf880e30994ea03e56fe5843608cf7b325f96a067d0f9e2764f58584b9512f1a04fa18947df,"#define CHECK_INDEX(I,A) CHECK(I < (sizeof(A)/sizeof(A[0])))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/glog/logging.h.in:968
+4b7dac20ef8c6c7b3c02e7137fd5237bf5ded5908163ea1310ffaaf880e30994ea03e56fe5843608cf7b325f96a067d0f9e2764f58584b9512f1a04fa18947df,"#define CHECK_BOUND(B,A) CHECK(B <= (sizeof(A)/sizeof(A[0])))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/glog/logging.h.in:969
+4733cc68555145ecd195c34fec3fb76f63e5dd427bd9eae050e73b025926100bd48b28064183973e3ace575da8bb8292d512b9562f55ada59c0d23e171613178,"  int tmppath_len = GetTempPathA(sizeof(tmppath_buffer), tmppath_buffer);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/util.h:255
+4733cc68555145ecd195c34fec3fb76f63e5dd427bd9eae050e73b025926100bd48b28064183973e3ace575da8bb8292d512b9562f55ada59c0d23e171613178,"    for (size_t i = 0; i < sizeof(kTrue)/sizeof(*kTrue); ++i) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gflags.cc:297
+4733cc68555145ecd195c34fec3fb76f63e5dd427bd9eae050e73b025926100bd48b28064183973e3ace575da8bb8292d512b9562f55ada59c0d23e171613178,"#define arraysize(arr) (sizeof(arr)/sizeof(*(arr)))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/util.h:96
+c44af087810e64c99165250938d87d5e3cc017b1c072b0d41cb4c340401f79d7435b54ff98683ee47852cb1df183a2336791a2557a00ff68ffb62ce1bcdaed74,"			GetDlgItemTextW(hwndDlg,(INT)wParam,wt,sizeof(wt)/sizeof(*wt));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/winamp/wasabi/Winamp/wa_dlg.h:271
+c44af087810e64c99165250938d87d5e3cc017b1c072b0d41cb4c340401f79d7435b54ff98683ee47852cb1df183a2336791a2557a00ff68ffb62ce1bcdaed74,"			GetDlgItemTextW(hwndDlg,(INT)wParam,wt,sizeof(wt)/sizeof(*wt));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/winamp/wasabi/Winamp/wa_dlg.h:271
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"  strncat(buf, "": "", sizeof(buf) - strlen(buf) - 1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/mrbgems/mruby-compiler/core/y.tab.c:10434
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"  strncat(buf, s, sizeof(buf) - strlen(buf) - 1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/mrbgems/mruby-compiler/core/y.tab.c:10435
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"      strncat(msg, tok(p), sizeof(msg) - strlen(msg) - 1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/mrbgems/mruby-compiler/core/y.tab.c:11291
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"      strncat(buf, p->error_buffer[0].message, sizeof(buf) - strlen(buf) - 1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/mrbgems/mruby-compiler/core/y.tab.c:13084
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"        mrb_raisef(mrb, E_RUNTIME_ERROR, ""mruby-pack does not support sizeof(int) == %d"", (int)sizeof(int));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/mrbgems/mruby-pack/src/pack.c:1181
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"        mrb_raisef(mrb, E_RUNTIME_ERROR, ""mruby-pack does not support sizeof(int) == %d"", (int)sizeof(int));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/mrbgems/mruby-pack/src/pack.c:1190
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"mrb_static_assert(sizeof(mrb_value) == sizeof(union mrb_value_));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/include/mruby/boxing_word.h:132
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"  else if (p->nerr < sizeof(p->error_buffer) / sizeof(p->error_buffer[0])) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/mrbgems/mruby-compiler/core/y.tab.c:10377
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"  else if (p->nwarn < sizeof(p->warn_buffer) / sizeof(p->warn_buffer[0])) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/mrbgems/mruby-compiler/core/y.tab.c:10416
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"  strncat(buf, "": "", sizeof(buf) - strlen(buf) - 1);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/mrbgems/mruby-compiler/core/y.tab.c:10434
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"  strncat(buf, s, sizeof(buf) - strlen(buf) - 1);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/mrbgems/mruby-compiler/core/y.tab.c:10435
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"      strncat(msg, tok(p), sizeof(msg) - strlen(msg) - 1);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/mrbgems/mruby-compiler/core/y.tab.c:11291
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"      strncat(buf, p->error_buffer[0].message, sizeof(buf) - strlen(buf) - 1);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/mrbgems/mruby-compiler/core/y.tab.c:13084
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"#define E2C_LEN         (sizeof(e2c) / sizeof(e2c[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/mrbgems/mruby-errno/src/errno.c:36
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"        mrb_raisef(mrb, E_RUNTIME_ERROR, ""mruby-pack does not support sizeof(int) == %d"", (int)sizeof(int));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/mrbgems/mruby-pack/src/pack.c:1181
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"        mrb_raisef(mrb, E_RUNTIME_ERROR, ""mruby-pack does not support sizeof(int) == %d"", (int)sizeof(int));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/mrbgems/mruby-pack/src/pack.c:1190
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"#define mrb_assert_int_fit(t1,n,t2,max) assert((n)>=0 && ((sizeof(n)<=sizeof(t2))||(n<=(t1)(max))))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/include/mruby.h:66
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"mrb_static_assert(sizeof(mrb_value) == sizeof(union mrb_value_));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/include/mruby/boxing_word.h:132
+c79b99616c6f40f5481f6e60c6a618116e4ab3b0365d3149654c3278c12cf60017364efa8288d8854c68dbe594f1bed25374aff80427a46a4bab8e0128e55167,"  ((mrb_int)(sizeof(void*) * 3 + sizeof(void*) - 32 / CHAR_BIT - 1))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/include/mruby/string.h:20
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"            ret = xmlSecTransformPopBin(left, buf, sizeof(buf), &bufSize, transformCtx);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/transforms.c:1404
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"                ret = kwAesId->encrypt(block, sizeof(block), block, sizeof(block), context);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/kw_aes_des.c:372
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"                ret = kwAesId->decrypt(block, sizeof(block), block, sizeof(block), context);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/kw_aes_des.c:427
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyParams(params, sizeof(params)/sizeof(params[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:136
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    xmlSecGnuTLSDestroyParams(params, sizeof(params)/sizeof(params[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:139
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:152
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:160
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:163
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:229
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:232
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyParams(params, sizeof(params)/sizeof(params[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:304
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    xmlSecGnuTLSDestroyParams(params, sizeof(params)/sizeof(params[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:307
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:323
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:331
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:334
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:393
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/gnutls/asymkeys.c:396
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecInternalError(""assumed sizeof(y) == sizeof(p)"", xmlSecKeyDataKlassGetName(id));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/mscng/certkeys.c:694
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    if(pos < sizeof(xmlSecErrorsTable) / sizeof(xmlSecErrorsTable[0])) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/errors.c:196
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    if(pos < sizeof(xmlSecErrorsTable) / sizeof(xmlSecErrorsTable[0])) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/errors.c:214
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"                ret = kwAesId->encrypt(block, sizeof(block), block, sizeof(block), context);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/kw_aes_des.c:372
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"                ret = kwAesId->decrypt(block, sizeof(block), block, sizeof(block), context);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/kw_aes_des.c:427
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    for (idx = 0; idx < sizeof(keyparms) / sizeof(keyparms[0]); idx++) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gcrypt/asn1.c:508
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyParams(params, sizeof(params)/sizeof(params[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:136
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    xmlSecGnuTLSDestroyParams(params, sizeof(params)/sizeof(params[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:139
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:152
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:160
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:163
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:229
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:232
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyParams(params, sizeof(params)/sizeof(params[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:304
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    xmlSecGnuTLSDestroyParams(params, sizeof(params)/sizeof(params[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:307
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:323
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:331
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:334
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:393
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    xmlSecGnuTLSDestroyMpis(mpis, sizeof(mpis)/sizeof(mpis[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/gnutls/asymkeys.c:396
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"#define xmlSecMSCngKeysStoreSize (sizeof(xmlSecKeyStore) + sizeof(xmlSecKeyStorePtr))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mscng/keysstore.c:51
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        xmlSecInternalError(""assumed sizeof(y) == sizeof(p)"", xmlSecKeyDataKlassGetName(id));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mscng/certkeys.c:694
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        (sizeof(xmlSecKeyStore) + sizeof(xmlSecKeyStorePtr))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/mscrypto/keysstore.c:66
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"        (sizeof(xmlSecKeyStore) + sizeof(xmlSecKeyStorePtr))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/nss/keysstore.c:58
+310d04b10f70b8becb4020d5d9a2f7ff5295026de0089e01709a2b79b078b4d2d4c96c85dca105e654c4510e2c913284b55fb2e70058253769430f21635c511d,"    for(zeros_len = 1; (zeros_len < sizeof(bb)) && (bb[zeros_len] == 0); ++zeros_len) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/nss/x509vfy.c:718
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"	size = backtrace(array, sizeof(array) / sizeof(array[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/db/os/os_stack.c:37
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"    poptDone done = memset(alloca(sizeof(*done)), 0, sizeof(*done));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/popt/popthelp.c:707
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"  return FilePath(_getcwd(cwd, sizeof(cwd)) == NULL ? """" : cwd);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/fmt/test/gmock-gtest-all.cc:7942
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"  return FilePath(getcwd(cwd, sizeof(cwd)) == NULL ? """" : cwd);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/fmt/test/gmock-gtest-all.cc:7945
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"    ::GetTempPathA(sizeof(temp_dir_path), temp_dir_path);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/fmt/test/gmock-gtest-all.cc:8731
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"//   GTEST_COMPILE_ASSERT_(sizeof(foo) < 128, foo_too_large);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/fmt/test/gtest/gtest.h:1912
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"                this->gptr() - number_putbacks * sizeof(char_type), number_putbacks * sizeof(char_type));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/Netxx-0.3.2/include/Netxx/Netbuf.h:176
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"            printf(""%.*s"", (int)(sizeof(spaces) - n), spaces);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/srtp/test/cutest.h:323
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"        for (i = (sizeof(v128_t) - c->bytes_in_buffer); i < sizeof(v128_t);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/srtp/crypto/cipher/aes_icm.c:323
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"    (unsigned)(sizeof(GeoIP_country_code) / sizeof(GeoIP_country_code[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/GeoIP/libGeoIP/GeoIP.c:159
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"      memcpy(&naddr, body, sizeof(UInt32)); body+=sizeof(UInt32);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/reTurn/StunMessage.cxx:399
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"      memcpy(&result.addr.ipv6, body, sizeof(result.addr.ipv6)); body+=sizeof(result.addr.ipv6);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/reTurn/StunMessage.cxx:406
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"  resip_assert(code >= 0 && code < (sizeof(errtext) / sizeof(*errtext)));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/rutil/dns/ares/ares_strerror.c:44
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"	size = backtrace(array, sizeof(array) / sizeof(array[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/db/os/os_stack.c:37
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"<pre>db_timespec mytime;<br>DB_LSN perm_lsn;<br>DBT lease_dbt;<br>REP_GRANT_INFO gi;<br><br><br>timespecclear(&amp;mytime);<br>timespecclear(&amp;newgrant);<br>memset(&amp;lease_dbt, 0, sizeof(lease_dbt));<br>memset(&amp;gi, 0, sizeof(gi));<br>__os_gettime(dbenv, &amp;mytime);<br>timespecadd(&amp;mytime, &amp;rep-&gt;lease_duration);<br>MUTEX_LOCK(rep-&gt;clientdb_mutex);<br>perm_lsn = lp-&gt;max_perm_lsn;<br>MUTEX_UNLOCK(rep-&gt;clientdb_mutex);<br>REP_SYSTEM_LOCK(dbenv);<br>if (timespeccmp(mytime, rep-&gt;grant_expire, &gt;))<br>	rep-&gt;grant_expire = mytime;<br>gi.msg_time = msg-&gt;msg_time;<br>#ifdef DIAGNOSTIC<br>gi.expire_time = rep-&gt;grant_expire;<br>#endif<br>lease_dbt.data = &amp;gi;<br>lease_dbt.size = sizeof(gi);<br>REP_SYSTEM_UNLOCK(dbenv);<br>__rep_send_message(dbenv, eid, REP_LEASE_GRANT, &amp;perm_lsn, &amp;lease_dbt, 0, 0);<br></pre>
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/db/rep/mlease.html:417
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"#define ArraySize(X)    (sizeof(X)/sizeof(X[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/db/db_sql/sqlite/sqliteInt.h:401
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"#define etNINFO (int)(sizeof(fmtinfo)/sizeof(fmtinfo[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/db/db_sql/sqlite/sqlprintf.c:139
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"#define YY_SZ_ACTTAB (int)(sizeof(yy_action)/sizeof(yy_action[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/db/db_sql/sqlite/parse.c:602
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"        && yyruleno<(int)(sizeof(yyRuleName)/sizeof(yyRuleName[0])) ){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/db/db_sql/sqlite/parse.c:2008
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"    poptDone done = memset(alloca(sizeof(*done)), 0, sizeof(*done));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/popt/popthelp.c:707
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"  for (std::size_t i = 0, n = sizeof(codes) / sizeof(*codes); i < n; ++i) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/fmt/test/format-impl-test.cc:175
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"  if (sizeof(U) <= sizeof(int) && sizeof(int) < sizeof(T)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/fmt/test/printf-test.cc:306
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"    (sizeof(long) == sizeof(int) ? int_type : long_long_type), long, long_type)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/fmt/include/fmt/core.h:631
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"                this->gptr() - number_putbacks * sizeof(char_type), number_putbacks * sizeof(char_type));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/Netxx-0.3.2/include/Netxx/Netbuf.h:176
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"    (unsigned)(sizeof(GeoIP_country_code) / sizeof(GeoIP_country_code[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/GeoIP/libGeoIP/GeoIP.c:159
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"#define REND_NELTS(tbl)   ( sizeof(tbl)/sizeof((tbl)[0]) )
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/resip/rend/RendMisc.hxx:30
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"      if ((n=read(fd,&r,sizeof(r))) == sizeof(r))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/resip/stack/test/testHash.cxx:124
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"    for(unsigned int i = 0 ; i < sizeof(arr)/sizeof(*arr); i++)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/resip/stack/test/testId.cxx:57
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"    for(size_t i = 0 ; i < sizeof(lang)/sizeof(*lang); ++i)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/resip/stack/test/testPlainContents.cxx:20
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"    for (unsigned int i = 0 ; i < sizeof(sigs)/sizeof(*sigs); i++)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/p2p/test/testCon.cxx:201
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"   for (unsigned int count=0; count<(len+sizeof(int)-1)/sizeof(int); ++count)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/rutil/Random.cxx:350
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"  while ( (x=read(mPipe[0], rdBuf, sizeof(rdBuf))) == sizeof(rdBuf) )
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/rutil/SelectInterruptor.cxx:83
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"            for (unsigned i = 0, n = sizeof(testVectors) / sizeof(testVectors[0]); i < n; ++i) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/rutil/test/testData.cxx:1368
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"   if ( hdrLen >= (sizeof(result)-sizeof(result.sizeReason)) ) // Note: result.sizeReason is extra info in StunAtrError that is not on the wire
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/rutil/stun/Stun.cxx:121
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"  resip_assert(code >= 0 && code < (sizeof(errtext) / sizeof(*errtext)));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/rutil/dns/ares/ares_strerror.c:44
+c79870838ebb9ef921be27c4305b4864b6eb9e821f3fdb2b3f355508b7d97f24e3fb1022184bcb1f4ab84f80a21b3b7fff36a70c8f1a6d39bc272ad3f496dfa2,"      if (gethostname(hostname, sizeof(hostname)) == -1 || !strchr(hostname, '.'))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/rutil/dns/ares/ares_init.c:894
+77b5bea6a7254372a97152a175d137556cc7f022b1bc666b82b6d78797d089dbfcdd198d7af590049cf9deaaad03361b48c1a1fc038fd0b0434d6af4fa540599,"#define array_count(a) (sizeof(a) / (sizeof((a)[0])))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/external/wepoll/wepoll.c:824
+97fbba49649fd9852def8c54abb1f64b754d245d6457d14c32ca33fac7409b6019e4b02be4a27bd0ce384e3f99794ae1893f068f3e444809772db394135d1535,"#define ARRAY_SIZE(array) (sizeof(array) / sizeof(array[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/bloaty.cc:101
+c57ae9efe1a39a59cc2fa6b8aed3a5cd55783f273a6ce80aad34971fc5e2d146557e9abac33a7e67f667b7bbd8960358f9f6ae4afb5dd07f8ea933373888523e,"#define SIZEOF_ARRAY(a)     (sizeof(a) / sizeof(a[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/md4c.c:65
+c57ae9efe1a39a59cc2fa6b8aed3a5cd55783f273a6ce80aad34971fc5e2d146557e9abac33a7e67f667b7bbd8960358f9f6ae4afb5dd07f8ea933373888523e,"        if(input_size >= sizeof(bom)  &&  memcmp(input, bom, sizeof(bom)) == 0) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/md4c-html.c:565
+297ed8eaa06365ac129a0e2040cca3801263ab53ab351dd9372f96c8d79a580496d1ec8e67ff892f3abe2493ef2c377aa6c01d98362ce09b12b4a9c874700eb8,"    janet_assert(slen <= sizeof(ss), ""socket address truncated"");
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/core/net.c:704
+297ed8eaa06365ac129a0e2040cca3801263ab53ab351dd9372f96c8d79a580496d1ec8e67ff892f3abe2493ef2c377aa6c01d98362ce09b12b4a9c874700eb8,"    janet_assert(slen <= sizeof(ss), ""socket address truncated"");
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/core/net.c:720
+297ed8eaa06365ac129a0e2040cca3801263ab53ab351dd9372f96c8d79a580496d1ec8e67ff892f3abe2493ef2c377aa6c01d98362ce09b12b4a9c874700eb8,"    if (index >= (sizeof(optimizers) / sizeof(optimizers[0])))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/core/cfuns.c:397
