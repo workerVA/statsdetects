@@ -4493,3 +4493,707 @@ eae3ecc975c9f895c32b5fbba7574324e3ad59534d093a51931b02fe806598f942a488091302fa16
 ",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/zipcmp.c:546
 04401e52616f24b7c38cbe41ddea18c9b69ea1d29d0cce4370857dd4accc8ada13534621615a31afbc83592bcfd48f539d779ffd293dabe258c8c93fef3b1255,"    snprintf(unknown, sizeof(unknown), ""unknown (%u)"", value);
 ",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/zipcmp.c:875
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"        FUZ_CHECKTEST( LZ4_initStream(&(shc->state1), sizeof(shc->state1)) == NULL, ""state1 (%p) failed init"", (void*)&(shc->state1) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/tests/fuzzer.c:1140
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"        FUZ_CHECKTEST( LZ4_initStream(&(shc->state2), sizeof(shc->state2)) == NULL, ""state2 (%p) failed init"", (void*)&(shc->state2)  );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/tests/fuzzer.c:1141
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"        FUZ_CHECKTEST( LZ4_initStream(&(shc->state3), sizeof(shc->state3)) == NULL, ""state3 (%p) failed init"", (void*)&(shc->state3)  );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/tests/fuzzer.c:1142
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"        FUZ_CHECKTEST( LZ4_initStreamHC(&(shc->hc1), sizeof(shc->hc1)) == NULL, ""hc1 (%p) failed init"", (void*)&(shc->hc1) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/tests/fuzzer.c:1251
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"        FUZ_CHECKTEST( LZ4_initStreamHC(&(shc->hc2), sizeof(shc->hc2)) == NULL, ""hc2 (%p) failed init"", (void*)&(shc->hc2)  );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/tests/fuzzer.c:1252
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"        FUZ_CHECKTEST( LZ4_initStreamHC(&(shc->hc3), sizeof(shc->hc3)) == NULL, ""hc3 (%p) failed init"", (void*)&(shc->hc3)  );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/tests/fuzzer.c:1253
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"static const size_t maxMemory = (sizeof(size_t)==4)  ?  (2 GB - 64 MB) : (size_t)(1ULL << ((sizeof(size_t)*8)-31));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/programs/bench.c:243
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"    memcpy(statePtr, &state, sizeof(state) - sizeof(state.reserved));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/lib/xxhash.c:446
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"    memcpy(statePtr, &state, sizeof(state) - sizeof(state.reserved));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/lib/xxhash.c:907
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"                        srcPatternLength = LZ4HC_countPattern(ip+sizeof(pattern), iHighLimit, pattern) + sizeof(pattern);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/lib/lz4hc.c:345
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"                        size_t forwardPatternLength = LZ4HC_countPattern(matchPtr+sizeof(pattern), iLimit, pattern) + sizeof(pattern);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/lib/lz4hc.c:356
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"        FUZ_CHECKTEST( LZ4_initStream(&(shc->state1), sizeof(shc->state1)) == NULL, ""state1 (%p) failed init"", (void*)&(shc->state1) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/tests/fuzzer.c:1140
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"        FUZ_CHECKTEST( LZ4_initStream(&(shc->state2), sizeof(shc->state2)) == NULL, ""state2 (%p) failed init"", (void*)&(shc->state2)  );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/tests/fuzzer.c:1141
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"        FUZ_CHECKTEST( LZ4_initStream(&(shc->state3), sizeof(shc->state3)) == NULL, ""state3 (%p) failed init"", (void*)&(shc->state3)  );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/tests/fuzzer.c:1142
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"        FUZ_CHECKTEST( LZ4_initStreamHC(&(shc->hc1), sizeof(shc->hc1)) == NULL, ""hc1 (%p) failed init"", (void*)&(shc->hc1) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/tests/fuzzer.c:1251
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"        FUZ_CHECKTEST( LZ4_initStreamHC(&(shc->hc2), sizeof(shc->hc2)) == NULL, ""hc2 (%p) failed init"", (void*)&(shc->hc2)  );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/tests/fuzzer.c:1252
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"        FUZ_CHECKTEST( LZ4_initStreamHC(&(shc->hc3), sizeof(shc->hc3)) == NULL, ""hc3 (%p) failed init"", (void*)&(shc->hc3)  );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/tests/fuzzer.c:1253
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"static const size_t maxMemory = (sizeof(size_t)==4)  ?  (2 GB - 64 MB) : (size_t)(1ULL << ((sizeof(size_t)*8)-31));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/programs/bench.c:243
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"    memcpy(statePtr, &state, sizeof(state) - sizeof(state.reserved));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/xxhash.c:446
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"    memcpy(statePtr, &state, sizeof(state) - sizeof(state.reserved));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/xxhash.c:907
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"                        srcPatternLength = LZ4HC_countPattern(ip+sizeof(pattern), iHighLimit, pattern) + sizeof(pattern);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/lz4hc.c:345
+ebb413bd9d614765f3aa30799c07799d3f30c5ccf06adfe7442e64eae35507ca15cff4932c861c6100a05a2d01450a3b8805a03cb74001c2407dfbfdfa441a21,"                        size_t forwardPatternLength = LZ4HC_countPattern(matchPtr+sizeof(pattern), iLimit, pattern) + sizeof(pattern);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/lz4hc.c:356
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"static const size_t maxMemory = (sizeof(size_t)==4)  ?  (2 GB - 64 MB) : (size_t)(1ULL << ((sizeof(size_t)*8)-31));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/zlibWrapper/examples/zwrapbench.c:66
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"static const size_t maxMemory = (sizeof(size_t)==4)  ?  (2 GB - 64 MB) : (size_t)(1ULL << ((sizeof(size_t)*8)-31));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/tests/paramgrill.c:44
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"    qsort(state->matches, state->nbMatches, sizeof(ZSTD_eDist_match), ZSTD_eDist_matchComp);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/match_finders/zstd_edist.c:414
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"static const size_t g_maxMemory = (sizeof(size_t) == 4) ? (2 GB - 64 MB) : ((size_t)(512 MB) << sizeof(size_t));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/programs/dibio.c:49
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"    DEBUGLOG(5, ""sizeof(ZSTD_CDict) : %u"", (unsigned)sizeof(ZSTD_CDict));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/lib/compress/zstd_compress.c:4766
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"    DEBUGLOG(5, ""sizeof(*cdict) : %u"", (unsigned)sizeof(*cdict));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/lib/compress/zstd_compress.c:4786
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"        assert((sizeof(size_t) == 4) || (sizeof(size_t) == 8));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/lib/compress/zstd_lazy.c:1049
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"#  define GT_OFF(x) (sizeof(int) == sizeof(z_off64_t) && (x) > gz_intmax())
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/zlibWrapper/gzguts.h:228
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"static const size_t maxMemory = (sizeof(size_t)==4)  ?  (2 GB - 64 MB) : (size_t)(1ULL << ((sizeof(size_t)*8)-31));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/zlibWrapper/examples/zwrapbench.c:66
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"static const size_t maxMemory = (sizeof(size_t)==4)  ?  (2 GB - 64 MB) : (size_t)(1ULL << ((sizeof(size_t)*8)-31));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/tests/paramgrill.c:44
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"static const size_t g_maxMemory = (sizeof(size_t) == 4) ? (2 GB - 64 MB) : ((size_t)(512 MB) << sizeof(size_t));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/programs/dibio.c:49
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"        if (sizeof(ptrdiff_t)==8) assert(istart - base < (ptrdiff_t)(U32)(-1));   /* ensure no overflow */
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/compress/zstd_compress.c:2842
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"    DEBUGLOG(5, ""sizeof(ZSTD_CDict) : %u"", (unsigned)sizeof(ZSTD_CDict));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/compress/zstd_compress.c:4766
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"    DEBUGLOG(5, ""sizeof(*cdict) : %u"", (unsigned)sizeof(*cdict));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/compress/zstd_compress.c:4786
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"        assert((sizeof(size_t) == 4) || (sizeof(size_t) == 8));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/compress/zstd_lazy.c:1049
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"        if (sizeof(size_t) > sizeof(int)) assert(job->src.size < ((size_t)INT_MAX) * chunkSize);   /* check overflow */
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/compress/zstdmt_compress.c:736
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"#define ZSTD_BUILD_FSE_TABLE_WKSP_SIZE_U32 ((ZSTD_BUILD_FSE_TABLE_WKSP_SIZE + sizeof(U32) - 1) / sizeof(U32))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/decompress/zstd_decompress_internal.h:77
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"MEM_STATIC void MEM_check(void) { DEBUG_STATIC_ASSERT((sizeof(size_t)==4) || (sizeof(size_t)==8)); }
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/common/mem.h:445
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"#  define ZSTD_ALIGNOF(T) (sizeof(void*) < sizeof(T) ? sizeof(void*) : sizeof(T))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/common/compiler.h:269
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"#define BIT_MASK_SIZE (sizeof(BIT_mask) / sizeof(BIT_mask[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/common/bitstream.h:144
+16b8566b57f4ed9c8c92c25561b070a8c872df1be37fd7a15d6a0eea84327225db74cd36358f88d8234d91f4ac41c8e31f86bd97e5ac607b3a45abf2c4a6b461,"#define FSE_BUILD_DTABLE_WKSP_SIZE_U32(maxTableLog, maxSymbolValue) ((FSE_BUILD_DTABLE_WKSP_SIZE(maxTableLog, maxSymbolValue) + sizeof(unsigned) - 1) / sizeof(unsigned))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/lib/common/fse.h:346
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"                        srcPatternLength = LZ4HC_countPattern(ip+sizeof(pattern), iHighLimit, pattern) + sizeof(pattern);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/lz4-1.9.3/lz4hc.c:345
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"                        size_t forwardPatternLength = LZ4HC_countPattern(matchPtr+sizeof(pattern), iLimit, pattern) + sizeof(pattern);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/lz4-1.9.3/lz4hc.c:356
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        zng_deflateGetParams(&c_stream, params, sizeof(params) / sizeof(params[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/test/example.c:320
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        zng_deflateSetParams(&c_stream, params, sizeof(params) / sizeof(params[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/test/example.c:327
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        zng_deflateGetParams(&c_stream, params, sizeof(params) / sizeof(params[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/test/example.c:345
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        zng_deflateSetParams(&c_stream, params, sizeof(params) / sizeof(params[0]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/test/example.c:352
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    strm.avail_in = (uint32_t)(next_in + sizeof(next_in) - strm.next_in);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/test/hash_head_0.c:66
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    strm.avail_out = (uint32_t)(next_out + sizeof(next_out) - strm.next_out);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/test/hash_head_0.c:67
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        strm.avail_out = (uint32_t)(next_out + sizeof(next_out) - strm.next_out);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/test/deflate_quick_block_open.c:62
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    Assert(sizeof(Pos) == 2, ""Wrong Pos size"");
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/arch/arm/slide_neon.c:28
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    DEBUGLOG(5, ""sizeof(ZSTD_CDict) : %u"", (unsigned)sizeof(ZSTD_CDict));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/zstd-1.5.2/compress/zstd_compress.c:4762
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    DEBUGLOG(5, ""sizeof(*cdict) : %u"", (unsigned)sizeof(*cdict));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/zstd-1.5.2/compress/zstd_compress.c:4782
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        assert((sizeof(size_t) == 4) || (sizeof(size_t) == 8));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/internal-complibs/zstd-1.5.2/compress/zstd_lazy.c:1078
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"      r1[0].val[j] = vtbx4_u8(r1[0].val[j], r0[1], vld1_u8(index_top + sizeof(r1[0]) +j*sizeof(r1[0].val[j])));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/unshuffle8_neon/unshuffle8_neon_vtbx_bucle.c:79
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        vst1_u8(dest + i + l*sizeof(r0[l]) + j*sizeof(r0[l].val[j]), r0[l].val[j]);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/unshuffle8_neon/unshuffle8_neon_vtbx_bucle.c:96
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"      r1[0].val[j] = vtbx4_u8(r1[0].val[j], r0[1], vld1_u8(index_top + sizeof(r1[0]) +j*sizeof(r1[0].val[j])));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/unshuffle8_neon/unshuffle8_neon_vtbx.c:42
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        vst1_u8(dest + i + l*sizeof(r0[l]) + j*sizeof(r0[l].val[j]), r0[l].val[j]);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/unshuffle8_neon/unshuffle8_neon_vtbx.c:55
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"      vst1q_u8(dest + total_elements*0 + k*sizeof(r0.val[0]), r0.val[0]);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/shuffle4_neon/shuffle4_neon_bucle.c:54
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"      vst1q_u8(dest + total_elements*1 + k*sizeof(r0.val[1]), r0.val[1]);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/shuffle4_neon/shuffle4_neon_bucle.c:55
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"      vst1q_u8(dest + total_elements*2 + k*sizeof(r0.val[2]), r0.val[2]);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/shuffle4_neon/shuffle4_neon_bucle.c:56
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"      vst1q_u8(dest + total_elements*3 + k*sizeof(r0.val[3]), r0.val[3]);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/shuffle4_neon/shuffle4_neon_bucle.c:57
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        r0[l].val[j] = vld1_u8(src + l*32 + k*32 + k*sizeof(r0[l]) + j*sizeof(r0[l].val[j]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/shuffle8_neon/shuffle8_neon_vtbx_bucle.c:73
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        vst1_u8(dest + total_elements*(j+l*4) + k*sizeof(r0[l].val[j]), r0[l].val[j]);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/shuffle8_neon/shuffle8_neon_vtbx_bucle.c:92
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        r0[l].val[j] = vld1_u8(src + l*32 + k*32 + k*sizeof(r0[l]) + j*sizeof(r0[l].val[j]));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/shuffle8_neon/shuffle8_neon_opt.c:36
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        vst1_u8(dest + total_elements*(j+l*4) + k*sizeof(r0[l].val[j]), r0[l].val[j]);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/shuffle8_neon/shuffle8_neon_opt.c:55
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    vst2q_u8(dest+k*sizeof(r0),r0);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/unshuffle2_neon/unshuffle2_neon_bucle.c:44
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        vst1_u8(dest + total_elements*(j+l*4) + k*sizeof(r0[l].val[j]), r0[l].val[j]);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/shuffle16_neon/shuffle16_neon_vtbx_bucle.c:136
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        vst1_u8(dest + total_elements*(j+l*4) + k*sizeof(r0[l].val[j]), r0[l].val[j]);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/contrib/shuffle_neon/shuffle16_neon/shuffle16_neon_vtbx.c:76
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"      trailer_len = (int32_t) (sizeof(int32_t) + sizeof(int64_t) + nblocks * sizeof(int32_t));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/blosc/frame.c:2164
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"                 ip - sizeof(token) - sizeof(offset) - offset + l * cell_shape, cell_shape);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/plugins/codecs/ndlz/ndlz8x8.c:517
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"                 ip - sizeof(token) - sizeof(offset) - offset + l * cell_shape, cell_shape);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/plugins/codecs/ndlz/ndlz8x8.c:532
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    memcpy(statePtr, &state, sizeof(state) - sizeof(state.reserved));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/plugins/codecs/ndlz/xxhash.h:2013
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    memcpy(statePtr, &state, sizeof(state) - sizeof(state.reserved64));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/plugins/codecs/ndlz/xxhash.h:2444
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"                        srcPatternLength = LZ4HC_countPattern(ip+sizeof(pattern), iHighLimit, pattern) + sizeof(pattern);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/lz4-1.9.3/lz4hc.c:345
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"                        size_t forwardPatternLength = LZ4HC_countPattern(matchPtr+sizeof(pattern), iLimit, pattern) + sizeof(pattern);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/lz4-1.9.3/lz4hc.c:356
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"#  define GT_OFF(x) (sizeof(int) == sizeof(z_off64_t) && (x) > gz_intmax())
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/gzguts.h:151
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        zng_deflateGetParams(&c_stream, params, sizeof(params) / sizeof(params[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/test/example.c:320
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        zng_deflateSetParams(&c_stream, params, sizeof(params) / sizeof(params[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/test/example.c:327
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        zng_deflateGetParams(&c_stream, params, sizeof(params) / sizeof(params[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/test/example.c:345
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        zng_deflateSetParams(&c_stream, params, sizeof(params) / sizeof(params[0]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/test/example.c:352
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    if ((len > sizeof(uint16_t)) && ((ptrdiff_t)buf & sizeof(uint16_t))) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/arch/arm/crc32_acle.c:25
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    if ((len > sizeof(uint32_t)) && ((ptrdiff_t)buf & sizeof(uint32_t))) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zlib-ng-2.0.6/arch/arm/crc32_acle.c:35
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        if (sizeof(ptrdiff_t)==8) assert(istart - base < (ptrdiff_t)(U32)(-1));   /* ensure no overflow */
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zstd-1.5.2/compress/zstd_compress.c:2843
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    DEBUGLOG(5, ""sizeof(ZSTD_CDict) : %u"", (unsigned)sizeof(ZSTD_CDict));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zstd-1.5.2/compress/zstd_compress.c:4762
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    DEBUGLOG(5, ""sizeof(*cdict) : %u"", (unsigned)sizeof(*cdict));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zstd-1.5.2/compress/zstd_compress.c:4782
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        assert((sizeof(size_t) == 4) || (sizeof(size_t) == 8));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zstd-1.5.2/compress/zstd_lazy.c:1078
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        if (sizeof(size_t) > sizeof(int)) assert(job->src.size < ((size_t)INT_MAX) * chunkSize);   /* check overflow */
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zstd-1.5.2/compress/zstdmt_compress.c:736
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"#define ZSTD_BUILD_FSE_TABLE_WKSP_SIZE_U32 ((ZSTD_BUILD_FSE_TABLE_WKSP_SIZE + sizeof(U32) - 1) / sizeof(U32))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zstd-1.5.2/decompress/zstd_decompress_internal.h:77
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"MEM_STATIC void MEM_check(void) { DEBUG_STATIC_ASSERT((sizeof(size_t)==4) || (sizeof(size_t)==8)); }
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zstd-1.5.2/common/mem.h:435
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"#  define ZSTD_ALIGNOF(T) (sizeof(void*) < sizeof(T) ? sizeof(void*) : sizeof(T))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zstd-1.5.2/common/compiler.h:267
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"#define BIT_MASK_SIZE (sizeof(BIT_mask) / sizeof(BIT_mask[0]))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zstd-1.5.2/common/bitstream.h:185
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"#define FSE_BUILD_DTABLE_WKSP_SIZE_U32(maxTableLog, maxSymbolValue) ((FSE_BUILD_DTABLE_WKSP_SIZE(maxTableLog, maxSymbolValue) + sizeof(unsigned) - 1) / sizeof(unsigned))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/internal-complibs/zstd-1.5.2/common/fse.h:346
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"  for (int i = size / (int)sizeof(int32_t) * (int)sizeof(int32_t); i < size; i++) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/tests/test_bitshuffle_leftovers.c:91
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"                            sizeof(cutest_##name) / sizeof(type), sizeof(type)); \
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/tests/cutest.h:34
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"      r1[0].val[j] = vtbx4_u8(r1[0].val[j], r0[1], vld1_u8(index_top + sizeof(r1[0]) +j*sizeof(r1[0].val[j])));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/shuffle_neon/unshuffle8_neon/unshuffle8_neon_vtbx_bucle.c:79
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        vst1_u8(dest + i + l*sizeof(r0[l]) + j*sizeof(r0[l].val[j]), r0[l].val[j]);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/shuffle_neon/unshuffle8_neon/unshuffle8_neon_vtbx_bucle.c:96
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"      r1[0].val[j] = vtbx4_u8(r1[0].val[j], r0[1], vld1_u8(index_top + sizeof(r1[0]) +j*sizeof(r1[0].val[j])));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/shuffle_neon/unshuffle8_neon/unshuffle8_neon_vtbx.c:42
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        vst1_u8(dest + i + l*sizeof(r0[l]) + j*sizeof(r0[l].val[j]), r0[l].val[j]);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/shuffle_neon/unshuffle8_neon/unshuffle8_neon_vtbx.c:55
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        r0[l].val[j] = vld1_u8(src + l*32 + k*32 + k*sizeof(r0[l]) + j*sizeof(r0[l].val[j]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/shuffle_neon/shuffle8_neon/shuffle8_neon_vtbx_bucle.c:73
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"        r0[l].val[j] = vld1_u8(src + l*32 + k*32 + k*sizeof(r0[l]) + j*sizeof(r0[l].val[j]));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/contrib/shuffle_neon/shuffle8_neon/shuffle8_neon_opt.c:36
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"      trailer_len = (int32_t) (sizeof(int32_t) + sizeof(int64_t) + nblocks * sizeof(int32_t));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/blosc/frame.c:2164
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    memcpy(statePtr, &state, sizeof(state) - sizeof(state.reserved));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/plugins/codecs/ndlz/xxhash.h:2013
+5256af5b9dcf33c00c2d74fe7be32dd37eca3b2aebab83cba2b103614d5b527d6467593e8ccc0e140e2059557440713e01b6320289a72440b8755573b2e158ce,"    memcpy(statePtr, &state, sizeof(state) - sizeof(state.reserved64));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/plugins/codecs/ndlz/xxhash.h:2444
+62b06221ae2cba11b31a2a540e951c7f7afd0ff9fec023b918c6e45000f4d7cb88dbfe44cb75b78b0f7ab3898af41e5c17571166d721728f6db10f3002614289,"    for(i=0; i < (int)(sizeof(cases)/sizeof(cases[0])); i++)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/libtom/tomcrypt_des.c:1800
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DWORD n = GetLogicalDriveStringsW(sizeof(buffer)/sizeof(wchar_t) - 1, buffer);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Foundation/src/Path_WIN32U.cpp:207
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	wchar_t* end = buffer + (n > sizeof(buffer) ? sizeof(buffer) : n);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Foundation/src/Path_WIN32U.cpp:209
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"OP1(SLJIT_MOV, SLJIT_MEM1(TMP2), sizeof(sljit_sw), SLJIT_MEM1(STACK_TOP), -3 * sizeof(sljit_sw));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Foundation/src/pcre_jit_compile.c:4862
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        OP2(SLJIT_ADD, SLJIT_MEM1(SLJIT_SP), private_data_ptr, STACK_TOP, 0, SLJIT_IMM, needs_control_head ? (2 * sizeof(sljit_sw)) : sizeof(sljit_sw));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Foundation/src/pcre_jit_compile.c:8187
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"            RaiseException(MS_VC_EXCEPTION, 0, sizeof(info)/sizeof(ULONG_PTR), (ULONG_PTR*)&info);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Foundation/src/Thread_WIN32.cpp:52
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"            (int)sizeof(entropy) * 2, entropy, (unsigned long)sizeof(entropy));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/XML/src/xmlparse.cpp:909
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(zBuf), zBuf, ""%02d:%02d:%02d"", x.h, x.m, (int)x.s);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:23135
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(zBuf), zBuf, ""%04d-%02d-%02d"", x.Y, x.M, x.D);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:23154
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    if( ALWAYS(nByte>(signed)sizeof(unsigned)) ) nByte = sizeof(unsigned int);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:23697
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( pInt[nReserve/sizeof(int)]==(int)REARGUARD );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:24478
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( (sizeof(Mem5Link)&(sizeof(Mem5Link)-1))==0 );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:26000
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        sqlite3_snprintf(sizeof(zBuf),zBuf,""invalid(%d)"", pWin->eExclude);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:30306
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"          sqlite3_snprintf(sizeof(zOp2),zOp2,"" op2=0x%02x"",pExpr->op2);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:30373
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        sqlite3_snprintf(sizeof(zBuf),zBuf,""0x%02x"",pExpr->op2);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:30528
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_randomness(sizeof(r), &r);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:39905
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( sizeof(t)+sizeof(randomnessPid)<=(size_t)nBuf );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:40722
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(errmsg),errmsg,""path error (len %d)"",(int)pathLen);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:41257
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(errmsg),errmsg,""read error (len %d)"",(int)readLen);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:41263
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(errmsg), errmsg, ""create failed (%d)"", errno);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:41269
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(errmsg), errmsg, ""write failed (%d)"", errno);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:41273
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(errmsg), errmsg, ""rename failed (%d)"", errno);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:41277
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  winGetLastErrorMsg(lastErrno, sizeof(zMsg), zMsg);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:44452
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_randomness(sizeof(lk), &lk);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:45535
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        sqlite3_randomness(sizeof(i), &i);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:49770
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  memset(&pPgHdr->pDirty, 0, sizeof(PgHdr) - offsetof(PgHdr,pDirty));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:50282
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  sqlite3_randomness(sizeof(pPager->cksumInit), &pPager->cksumInit);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:54137
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  memcpy(pPtr, &pPager, sizeof(pPager));  pPtr += sizeof(pPager);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:57462
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  walChecksumBytes(1, (u8*)&h1, sizeof(h1)-sizeof(h1.aCksum), 0, aCksum);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:62606
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      rc = sqlite3PagerReadFileheader(pBt->pPager,sizeof(zDbHeader),zDbHeader);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:67964
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  vdbeMemRenderNum(sizeof(zBuf), zBuf, p);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:77167
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  memset(&p->aOp, 0, sizeof(Vdbe)-offsetof(Vdbe,aOp));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:78939
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      sqlite3_snprintf(sizeof(zAlt), zAlt, ""if %s goto P2"", zSynopsis+3);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:80399
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(z), z, ""%s"", pOp->p4.z);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:81133
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      sqlite3_randomness(sizeof(iRandom), &iRandom);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:81674
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    assert( sizeof(r1)==sizeof(t2) && memcmp(&r1, &t2, sizeof(r1))==0 );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:82785
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        sqlite3_randomness(sizeof(v), &v);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:91540
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(zErr),zErr, ""no such database: %s"", zName);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:111832
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(zErr),zErr, ""cannot detach database %s"", zName);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:111836
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(zErr),zErr, ""database %s is locked"", zName);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:111842
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(zTab),zTab,""sqlite_stat%d"",i);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:115506
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    p = (Schema *)sqlite3BtreeSchema(pBt, sizeof(Schema), sqlite3SchemaClear);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:118323
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  sqlite3_randomness(sizeof(r), &r);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:119829
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      sqlite3_snprintf(sizeof(zBuf), zBuf, ""%!.15g"", r1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:120358
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        sqlite3_snprintf(sizeof(zBuf), zBuf, ""%!.20e"", r1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:120361
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  int nExtra = (N+X)*(sizeof(CollSeq*)+1) - sizeof(CollSeq*);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:133451
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      if( cnt>3 ) sqlite3_randomness(sizeof(cnt), &cnt);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:134192
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        sqlite3_snprintf(sizeof(zWhich),zWhich,""%r "", nClause+1);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:142626
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      sqlite3_snprintf(sizeof(zLeft),zLeft,""left=%d"", pTerm->leftCursor);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:151038
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( iLookAhead<sizeof(yyFallback)/sizeof(yyFallback[0]) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:160547
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        assert( j<(int)(sizeof(yy_lookahead)/sizeof(yy_lookahead[0])) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:160564
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( i>=0 && i<(int)(sizeof(yy_action)/sizeof(yy_action[0])) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:160579
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( yyruleno<sizeof(yyRuleInfoLhs)/sizeof(yyRuleInfoLhs[0]) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:162997
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( yyruleno<(int)(sizeof(yyRuleName)/sizeof(yyRuleName[0])) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:163151
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( iToken<(int)(sizeof(yyFallback)/sizeof(yyFallback[0])) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:163329
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(zBuf), zBuf, ""SQLITE_UNKNOWN(%d)"", origRc);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:166644
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  sqlite3_snprintf(sizeof(zMsg), zMsg, ""database corruption page %d"", pgno);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:168726
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  sqlite3_snprintf(sizeof(zRnd), zRnd, ""rbu_vfs_%d"", rnd);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:203901
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  sqlite3_snprintf(sizeof(aBuf)-1, aBuf, ""%d"", iVal);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:208757
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( iLookAhead<sizeof(fts5yyFallback)/sizeof(fts5yyFallback[0]) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:214607
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        assert( j<(int)(sizeof(fts5yy_lookahead)/sizeof(fts5yy_lookahead[0])) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:214624
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( i>=0 && i<(int)(sizeof(fts5yy_action)/sizeof(fts5yy_action[0])) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:214639
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( fts5yyruleno<sizeof(fts5yyRuleInfoLhs)/sizeof(fts5yyRuleInfoLhs[0]) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:215009
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( fts5yyruleno<(int)(sizeof(fts5yyRuleName)/sizeof(fts5yyRuleName[0])) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:215161
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( iToken<(int)(sizeof(fts5yyFallback)/sizeof(fts5yyFallback[0])) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:215339
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"          fts5BufferAppendBlob(&p->rc, &buf, sizeof(aHdr), aHdr);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:225217
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( nBuf+1<=sizeof(aMerger)/sizeof(aMerger[0]) );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Data/SQLite/src/sqlite3.c:226050
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"			if (sizeof(struct sockaddr) > len) len = sizeof(struct sockaddr);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Net/src/NetworkInterface.cpp:1773
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"				if (len < sizeof(struct sockaddr_in6)) len = sizeof(struct sockaddr_in6);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Net/src/NetworkInterface.cpp:1785
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"				if (len < sizeof(struct sockaddr_in)) len = sizeof(struct sockaddr_in);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/Net/src/NetworkInterface.cpp:1791
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	wchar_t* end = buffer + (n > sizeof(buffer) ? sizeof(buffer) : n);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Foundation/src/Path_WIN32U.cpp:209
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  ((sizeof(a) / sizeof(*(a))) /                         \
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Foundation/src/utils.h:154
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  static_cast<size_t>(!(sizeof(a) % sizeof(*(a)))))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Foundation/src/utils.h:155
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"#  define GT_OFF(x) (sizeof(int) == sizeof(z_off64_t) && (x) > gz_intmax())
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Foundation/src/gzguts.h:218
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"OP1(SLJIT_MOV, SLJIT_MEM1(TMP2), sizeof(sljit_sw), SLJIT_MEM1(STACK_TOP), -3 * sizeof(sljit_sw));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Foundation/src/pcre_jit_compile.c:4862
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        OP2(SLJIT_ADD, SLJIT_MEM1(SLJIT_SP), private_data_ptr, STACK_TOP, 0, SLJIT_IMM, needs_control_head ? (2 * sizeof(sljit_sw)) : sizeof(sljit_sw));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Foundation/src/pcre_jit_compile.c:8187
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    if (cc[1 + (32 / sizeof(pcre_uchar))] >= OP_CRSTAR && cc[1 + (32 / sizeof(pcre_uchar))] <= OP_CRPOSRANGE)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Foundation/src/pcre_jit_compile.c:9608
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"            RaiseException(MS_VC_EXCEPTION, 0, sizeof(info)/sizeof(ULONG_PTR), (ULONG_PTR*)&info);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Foundation/src/Thread_WIN32.cpp:52
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"            (int)sizeof(entropy) * 2, entropy, (unsigned long)sizeof(entropy));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/XML/src/xmlparse.cpp:909
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for (i = 0; i < (int)(sizeof(encodingNames) / sizeof(encodingNames[0])); i++)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/XML/src/xmltok.c:1515
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"#define sip_endof(a) (&(a)[sizeof(a) / sizeof *(a)])
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/XML/src/siphash.h:204
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    for (i = 0; i < (int)(sizeof(types) / sizeof(types[0])); i++)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/XML/src/xmlrole.c:752
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"#define ArraySize(X)    ((int)(sizeof(X)/sizeof(X[0])))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:14819
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(zBuf), zBuf, ""%02d:%02d:%02d"", x.h, x.m, (int)x.s);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:23135
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( pInt[nReserve/sizeof(int)]==(int)REARGUARD );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:24478
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( (sizeof(Mem5Link)&(sizeof(Mem5Link)-1))==0 );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:26000
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        sqlite3_snprintf(sizeof(zBuf),zBuf,""invalid(%d)"", pWin->eExclude);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:30306
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    for(i=0; i<sizeof(aSyscall)/sizeof(aSyscall[0]); i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:34644
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    for(i=0; i<sizeof(aSyscall)/sizeof(aSyscall[0]); i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:34653
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for(i=0; i<sizeof(aSyscall)/sizeof(aSyscall[0]); i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:34680
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    if( i>=sizeof(azDirs)/sizeof(azDirs[0]) ) break;
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:39879
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( sizeof(t)+sizeof(randomnessPid)<=(size_t)nBuf );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:40722
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(errmsg),errmsg,""path error (len %d)"",(int)pathLen);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:41257
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(errmsg),errmsg,""read error (len %d)"",(int)readLen);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:41263
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(errmsg), errmsg, ""create failed (%d)"", errno);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:41269
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(errmsg), errmsg, ""write failed (%d)"", errno);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:41273
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(errmsg), errmsg, ""rename failed (%d)"", errno);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:41277
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    for(i=0; i<sizeof(aSyscall)/sizeof(aSyscall[0]); i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:43543
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    for(i=0; i<sizeof(aSyscall)/sizeof(aSyscall[0]); i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:43552
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for(i=0; i<sizeof(aSyscall)/sizeof(aSyscall[0]); i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:43579
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    for(i=0; i<sizeof(azDirs)/sizeof(azDirs[0]); zDir=azDirs[i++]){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:47151
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    (((BITVEC_SZ-(3*sizeof(u32)))/sizeof(Bitvec*))*sizeof(Bitvec*))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:49444
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  memset(&pPgHdr->pDirty, 0, sizeof(PgHdr) - offsetof(PgHdr,pDirty));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:50282
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for(i=1; i<sizeof(aBucket)/sizeof(aBucket[0]); i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:52271
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  walChecksumBytes(1, (u8*)&h1, sizeof(h1)-sizeof(h1.aCksum), 0, aCksum);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:62606
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  memset(&p->aOp, 0, sizeof(Vdbe)-offsetof(Vdbe,aOp));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:78939
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    assert( sizeof(r1)==sizeof(t2) && memcmp(&r1, &t2, sizeof(r1))==0 );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:82785
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"#define YY_NLOOKAHEAD ((int)(sizeof(yy_lookahead)/sizeof(yy_lookahead[0])))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:158522
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( iLookAhead<sizeof(yyFallback)/sizeof(yyFallback[0]) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:160547
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        assert( j<(int)(sizeof(yy_lookahead)/sizeof(yy_lookahead[0])) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:160564
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( i>=0 && i<(int)(sizeof(yy_action)/sizeof(yy_action[0])) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:160579
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( yyruleno<sizeof(yyRuleInfoLhs)/sizeof(yyRuleInfoLhs[0]) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:162997
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( yyruleno<(int)(sizeof(yyRuleName)/sizeof(yyRuleName[0])) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:163151
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( iToken<(int)(sizeof(yyFallback)/sizeof(yyFallback[0])) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:163329
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    sqlite3_snprintf(sizeof(zBuf), zBuf, ""SQLITE_UNKNOWN(%d)"", origRc);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:166644
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"#define SizeofArray(X) ((int)(sizeof(X)/sizeof(X[0])))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:170782
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for(i=0; i<sizeof(azName)/sizeof(azName[0]); i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:175042
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for(i=0; i<sizeof(aFunc)/sizeof(aFunc[0]) && rc==SQLITE_OK; i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:192230
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for(i=0; i<sizeof(aAgg)/sizeof(aAgg[0]) && rc==SQLITE_OK; i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:192236
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for(i=0; i<sizeof(aMod)/sizeof(aMod[0]) && rc==SQLITE_OK; i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:192244
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for(i=0; i<sizeof(azName)/sizeof(azName[0]); i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:195720
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for(i=0; i<sizeof(aFunc)/sizeof(aFunc[0]) && rc==SQLITE_OK; i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:198438
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for(i=0; i<sizeof(aAgg)/sizeof(aAgg[0]) && rc==SQLITE_OK; i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:198449
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for(i=0; rc==SQLITE_OK && i<(int)(sizeof(scalars)/sizeof(scalars[0])); i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:199168
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    for(i=0; i<sizeof(aStmt)/sizeof(aStmt[0]); i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:201321
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"# define ArraySize(x) ((int)(sizeof(x) / sizeof(x[0])))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:213041
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"#define fts5YY_NLOOKAHEAD ((int)(sizeof(fts5yy_lookahead)/sizeof(fts5yy_lookahead[0])))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:214037
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( iLookAhead<sizeof(fts5yyFallback)/sizeof(fts5yyFallback[0]) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:214607
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"        assert( j<(int)(sizeof(fts5yy_lookahead)/sizeof(fts5yy_lookahead[0])) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:214624
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( i>=0 && i<(int)(sizeof(fts5yy_action)/sizeof(fts5yy_action[0])) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:214639
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( fts5yyruleno<sizeof(fts5yyRuleInfoLhs)/sizeof(fts5yyRuleInfoLhs[0]) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:215009
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"      assert( fts5yyruleno<(int)(sizeof(fts5yyRuleName)/sizeof(fts5yyRuleName[0])) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:215161
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( iToken<(int)(sizeof(fts5yyFallback)/sizeof(fts5yyFallback[0])) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:215339
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  assert( nBuf+1<=sizeof(aMerger)/sizeof(aMerger[0]) );
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:226050
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for(i=0; i<sizeof(azName)/sizeof(azName[0]); i++){
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Data/SQLite/src/sqlite3.c:230597
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	""	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))\n""
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/Compiler/src/TextEncodingCompiler.cpp:391
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/ISO8859_8Encoding.cpp:87
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/MacJapaneseEncoding.cpp:1864
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/ISO8859_11Encoding.cpp:90
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/Windows1257Encoding.cpp:93
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/Windows1258Encoding.cpp:93
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/Windows932Encoding.cpp:1968
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/ISO8859_9Encoding.cpp:93
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/ISO8859_3Encoding.cpp:93
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/ISO8859_6Encoding.cpp:86
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/ISO8859_5Encoding.cpp:91
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/MacKoreanEncoding.cpp:2204
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/Windows1255Encoding.cpp:92
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/Windows1256Encoding.cpp:94
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/ISO8859_14Encoding.cpp:93
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/ISO8859_10Encoding.cpp:93
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/Windows1253Encoding.cpp:92
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/Windows1254Encoding.cpp:94
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/MacCentralEurRomanEncoding.cpp:87
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/ISO8859_16Encoding.cpp:93
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/ISO8859_13Encoding.cpp:93
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/Windows949Encoding.cpp:4340
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/ISO8859_7Encoding.cpp:91
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/ISO8859_4Encoding.cpp:93
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/Windows950Encoding.cpp:3453
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/MacCyrillicEncoding.cpp:87
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/MacChineseSimpEncoding.cpp:1942
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/Windows936Encoding.cpp:5526
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/Windows874Encoding.cpp:91
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/MacRomanEncoding.cpp:87
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"	DoubleByteEncoding(_names, _charMap, _mappingTable, sizeof(_mappingTable)/sizeof(Mapping), _reverseMappingTable, sizeof(_reverseMappingTable)/sizeof(Mapping))
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/Encodings/src/MacChineseTradEncoding.cpp:3434
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    if (len <= 0 || len >= (int)sizeof(buf) || buf[sizeof(buf) - 1] != 0)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/PDF/src/gzio.c:631
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"    if (len <= 0 || len >= sizeof(buf) || buf[sizeof(buf) - 1] != 0)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/PDF/src/gzio.c:668
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for (i = 0; i < sizeof(kVendors) / sizeof(kVendors[i]); i++)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/SevenZip/src/CpuArch.c:115
+469dd75e3cca9644a3b5f345df761fc76f1c62a5a0fc4745d76968f77170c927c86f34288cdc91dfa2e32e408324c4d4945649f507d48c41560620b2af31ed5a,"  for (i = 0; i < sizeof(p) / sizeof(p[0]); i++)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/SevenZip/src/Bcj2.c:48
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"			TEST_ASSERT(cp_vbnn_ver(r, z, h, ida, sizeof(ida), m, sizeof(m), mpk) == 1, end);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/test/test_cp.c:727
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"			TEST_ASSERT(cp_vbnn_ver(r, z, h, idb, sizeof(idb), m, sizeof(m), mpk) == 0, end);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/test/test_cp.c:728
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"			TEST_ASSERT(cp_vbnn_ver(r, z, h, ida, sizeof(ida), m, sizeof(m), mpk) == 0, end);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/test/test_cp.c:730
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"		BENCH_ADD(md_xmd(buf, sizeof(buf), buf, sizeof(buf), dst, 5));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/bench/bench_md.c:48
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"		BENCH_ADD(cp_vbnn_ver(r, z, h, ida, sizeof(ida), m, sizeof(m), mpk));
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/bench/bench_cp.c:509
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"    store32( buffer + sizeof( S->h[i] ) * i, S->h[i] );
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/md/blake2s-ref.c:258
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"			TEST_ASSERT(cp_vbnn_ver(r, z, h, ida, sizeof(ida), m, sizeof(m), mpk) == 1, end);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/test/test_cp.c:727
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"			TEST_ASSERT(cp_vbnn_ver(r, z, h, idb, sizeof(idb), m, sizeof(m), mpk) == 0, end);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/test/test_cp.c:728
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"			TEST_ASSERT(cp_vbnn_ver(r, z, h, ida, sizeof(ida), m, sizeof(m), mpk) == 0, end);
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/test/test_cp.c:730
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"	int lens[5] = {sizeof(m), sizeof(m), sizeof(m), sizeof(m), sizeof(m)};
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/test/test_cp.c:1545
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"		BENCH_ADD(md_xmd(buf, sizeof(buf), buf, sizeof(buf), dst, 5));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/bench/bench_md.c:48
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"		BENCH_ADD(cp_vbnn_ver(r, z, h, ida, sizeof(ida), m, sizeof(m), mpk));
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/bench/bench_cp.c:509
+a8f2c0a9c9014acc53aa72dc440d6558dc9da056708dc89eecef83864b603f8d994741b66884742911dc7ed001397b6d9144e70baef5090a2fc85f59aa5a7098,"	int lens[5] = {sizeof(m), sizeof(m), sizeof(m), sizeof(m), sizeof(m)};
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/bench/bench_cp.c:1162
