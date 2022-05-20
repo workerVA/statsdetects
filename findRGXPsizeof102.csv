@@ -7699,3 +7699,9 @@ f0f4ff87853d2a1bfc9b267895eeb6c160cc052aa2abe94027efb6476bceb79ece3e70f0e44869f4
 518a9107c43993279cee94696aebb4750a0b17a879df8e2259765997042c2fc5838cfaa51d66852dfcc638d02e5b7d87c718d08691cd33bc7b4895e7ed207f68,"    GetObjectW (font, sizeof(logfont), &logfont);
 ",".*\(.*sizeof\((.*)\).*\1.*\);
 ",/tmp/GitClone/src/win32/cairo-win32-font.c:1948
+518a9107c43993279cee94696aebb4750a0b17a879df8e2259765997042c2fc5838cfaa51d66852dfcc638d02e5b7d87c718d08691cd33bc7b4895e7ed207f68,"    if (ExtEscape(surface->win32.dc, QUERYESCSUPPORT, sizeof(word), (char *)&word, 0, (char *)NULL) > 0)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/win32/cairo-win32-printing-surface.c:133
+518a9107c43993279cee94696aebb4750a0b17a879df8e2259765997042c2fc5838cfaa51d66852dfcc638d02e5b7d87c718d08691cd33bc7b4895e7ed207f68,"    if (ExtEscape(surface->win32.dc, QUERYESCSUPPORT, sizeof(word), (char *)&word, 0, (char *)NULL) > 0)
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/src/win32/cairo-win32-printing-surface.c:137
+518a9107c43993279cee94696aebb4750a0b17a879df8e2259765997042c2fc5838cfaa51d66852dfcc638d02e5b7d87c718d08691cd33bc7b4895e7ed207f68,"    if (sched_getaffinity(0, sizeof(affinity), &affinity)) {
+",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/perf/cairo-perf-micro.c:421
