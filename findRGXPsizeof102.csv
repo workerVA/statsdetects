@@ -7696,3 +7696,6 @@ f0f4ff87853d2a1bfc9b267895eeb6c160cc052aa2abe94027efb6476bceb79ece3e70f0e44869f4
 ",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/third_party/protobuf-lite/google/protobuf/stubs/macros.h:89
 16291118ceb81901e2ca18000fd919003a846a865a0138f120ab04f9d3c2a1c9cc279052c6ee6fd56aefeb47c9582d73e5dd9a71893491d7d7b3c4a334d85e6c,"   static_cast<size_t>(!(sizeof(a) % sizeof(*(a)))))
 ",.*\(.*sizeof\((.*)\).*\1.*\).*\),/tmp/GitClone/third_party/protobuf-lite/google/protobuf/stubs/macros.h:90
+518a9107c43993279cee94696aebb4750a0b17a879df8e2259765997042c2fc5838cfaa51d66852dfcc638d02e5b7d87c718d08691cd33bc7b4895e7ed207f68,"    GetObjectW (font, sizeof(logfont), &logfont);
+",".*\(.*sizeof\((.*)\).*\1.*\);
+",/tmp/GitClone/src/win32/cairo-win32-font.c:1948
