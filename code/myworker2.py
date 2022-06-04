@@ -69,6 +69,7 @@ with open(pathToListHash) as fileTmp:
     for i in readFile:
         print(i)
         if i.splitlines()[0] in str(readFileResultERR):
+            print('skeep work')
             continue
         with open(file_csv_bad, 'a', newline='') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -86,7 +87,7 @@ with open(pathToListHash) as fileTmp:
                 if os.path.exists(folderGitClone):
                     shutil.rmtree(folderGitClone)
 
-                os.system("git clone "+urlForWork+" "+folderGitClone)
+                os.system("timeout 20m git clone "+urlForWork+" "+folderGitClone)
                 if not os.path.exists(folderGitClone):
                     continue
 
