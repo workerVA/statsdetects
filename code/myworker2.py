@@ -86,7 +86,7 @@ with open(pathToListHash) as fileTmp:
                     continue
                 if os.path.exists(folderGitClone):
                     shutil.rmtree(folderGitClone)
-
+                print(urlForWork)
                 os.system("timeout 20m git clone "+urlForWork+" "+folderGitClone)
                 if not os.path.exists(folderGitClone):
                     continue
