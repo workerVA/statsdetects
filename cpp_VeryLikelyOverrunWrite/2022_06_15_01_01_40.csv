@@ -1,0 +1,2 @@
+"ID of bw","bw","URL for bw","col1"
+249726,"item_name","file:///tmp/GitClone/src/asterix/DataItemFormatBDS.cpp:110:47:110:55","This 'sscanf string argument' operation requires 129 bytes but the destination is only 128 bytes."
