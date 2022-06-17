@@ -1,0 +1,5 @@
+"ID of bw","bw","URL for bw","col1"
+2958,"call to strcpy","file:///tmp/GitClone/Src/dflow.c:711:6:711:11","This 'call to strcpy' operation requires 2 bytes but the destination is only 1 bytes."
+2979,"call to strcat","file:///tmp/GitClone/Src/dflow.c:713:5:713:10","This 'call to strcat' operation requires 3 bytes but the destination is only 1 bytes."
+145235,"call to strcat","file:///tmp/GitClone/Src/modex.c:1127:5:1127:10","This 'call to strcat' operation requires 2 bytes but the destination is only 1 bytes."
+155069,"call to strcat","file:///tmp/GitClone/Src/modex.c:433:6:433:11","This 'call to strcat' operation requires 2 bytes but the destination is only 1 bytes."
