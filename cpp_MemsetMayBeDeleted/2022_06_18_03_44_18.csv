@@ -1,0 +1,2 @@
+"ID of call","call","URL for call","col1"
+1008036,"call to memset","file:///tmp/GitClone/sha1.c:106:5:106:10","Call to memset may be deleted by the compiler."
