@@ -1,0 +1,3 @@
+"ID of bw","bw","URL for bw","col1"
+635637,"call to strcpy","file:///tmp/GitClone/lib/vnode_aff.cpp:134:5:134:10","This 'call to strcpy' operation requires 5 bytes but the destination is only 4 bytes."
+635722,"call to strcpy","file:///tmp/GitClone/lib/vnode_aff.cpp:139:5:139:10","This 'call to strcpy' operation requires 5 bytes but the destination is only 4 bytes."
