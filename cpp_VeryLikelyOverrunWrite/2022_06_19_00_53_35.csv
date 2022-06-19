@@ -1,0 +1,4 @@
+"ID of bw","bw","URL for bw","col1"
+4885046,"call to strcpy","file:///tmp/GitClone/src/XrdHttp/XrdHttpSecurity.cc:210:9:210:14","This 'call to strcpy' operation requires 10 bytes but the destination is only 9 bytes."
+7256526,"val","file:///tmp/GitClone/src/XrdSecgsi/XrdSecgsiGMAPFunDN.cc:207:40:207:42","This 'sscanf string argument' operation requires 4097 bytes but the destination is only 4096 bytes."
+7256531,"usr","file:///tmp/GitClone/src/XrdSecgsi/XrdSecgsiGMAPFunDN.cc:207:45:207:47","This 'sscanf string argument' operation requires 257 bytes but the destination is only 256 bytes."
