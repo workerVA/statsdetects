@@ -1,0 +1,3 @@
+"ID of error","error","URL for error","msg"
+353,"access to array","file:///tmp/GitClone/array/stringArray.c:16:28:16:31","Potential buffer-overflow: 'b' has size 5 but 'b[5]' may be accessed here."
+383,"access to array","file:///tmp/GitClone/array/stringArray.c:17:28:17:31","Potential buffer-overflow: 'b' has size 5 but 'b[6]' may be accessed here."
