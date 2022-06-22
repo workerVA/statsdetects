@@ -1,0 +1,3 @@
+"ID of bw","bw","URL for bw","col1"
+2303893,"call to sprintf","file:///tmp/GitClone/src/video_capture/import.cpp:820:25:820:31","This 'call to sprintf' operation requires 12 bytes but the destination is only 3 bytes."
+2372587,"control","file:///tmp/GitClone/src/video_capture/rtsp.c:957:34:957:40","This 'sscanf string argument' operation requires 1501 bytes but the destination is only 1500 bytes."
