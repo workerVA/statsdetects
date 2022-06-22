@@ -1,0 +1,2 @@
+"ID of error","error","URL for error","msg"
+28525,"100","file:///tmp/GitClone/principal.c:28:22:28:24","Potential buffer-overflow: 'caracteres' has size 75 not 100."
