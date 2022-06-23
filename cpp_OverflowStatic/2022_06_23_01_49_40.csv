@@ -1,0 +1,5 @@
+"ID of error","error","URL for error","msg"
+19260,"90","file:///tmp/GitClone/bst.c:541:24:541:25","Potential buffer-overflow: 'fileName' has size 70 not 90."
+19295,"90","file:///tmp/GitClone/bst.c:542:20:542:21","Potential buffer-overflow: 'pdfName' has size 70 not 90."
+22175,"90","file:///tmp/GitClone/bst.c:312:24:312:25","Potential buffer-overflow: 'fileName' has size 70 not 90."
+22209,"90","file:///tmp/GitClone/bst.c:313:20:313:21","Potential buffer-overflow: 'pdfName' has size 70 not 90."
