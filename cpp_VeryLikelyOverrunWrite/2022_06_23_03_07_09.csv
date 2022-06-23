@@ -1,0 +1,6 @@
+"ID of bw","bw","URL for bw","col1"
+6992,"call to strcat","file:///tmp/GitClone/files.c:124:23:124:28","This 'call to strcat' operation requires 5 bytes but the destination is only 1 bytes."
+7566,"call to strcat","file:///tmp/GitClone/files.c:83:23:83:28","This 'call to strcat' operation requires 5 bytes but the destination is only 1 bytes."
+8217,"call to strcat","file:///tmp/GitClone/files.c:29:15:29:20","This 'call to strcat' operation requires 4 bytes but the destination is only 1 bytes."
+17375,"call to strcat","file:///tmp/GitClone/main.c:36:22:36:27","This 'call to strcat' operation requires 4 bytes but the destination is only 1 bytes."
+21450,"call to strcat","file:///tmp/GitClone/tables.c:196:32:196:37","This 'call to strcat' operation requires 8 bytes but the destination is only 1 bytes."
