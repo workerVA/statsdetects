@@ -1,0 +1,2 @@
+"ID of error","error","URL for error","msg"
+62671,"sizeof(Elf64_Ehdr)","file:///tmp/GitClone/source/elf_parser.c:12:37:12:54","Potential buffer-overflow: 'e_ident' has size 16 not 64."
