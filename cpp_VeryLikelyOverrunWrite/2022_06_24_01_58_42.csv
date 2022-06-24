@@ -1,0 +1,4 @@
+"ID of bw","bw","URL for bw","col1"
+1305224,"call to sprintf","file:///tmp/GitClone/src/writepdb.c:220:3:220:9","This 'call to sprintf' operation requires 9 bytes but the destination is only 6 bytes."
+1305677,"call to sprintf","file:///tmp/GitClone/src/writepdb.c:185:3:185:9","This 'call to sprintf' operation requires 9 bytes but the destination is only 7 bytes."
+1306121,"call to sprintf","file:///tmp/GitClone/src/writepdb.c:101:3:101:9","This 'call to sprintf' operation requires 9 bytes but the destination is only 6 bytes."
