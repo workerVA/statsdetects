@@ -1,0 +1,4 @@
+"ID of bw","bw","URL for bw","col1"
+2730237,"call to sprintf","file:///tmp/GitClone/vim-8.1.0875/src/term.c:6509:2:6509:8","This 'call to sprintf' operation requires 23 bytes but the destination is only 11 bytes."
+2945292,"call to strcpy","file:///tmp/GitClone/vim-8.1.0875/src/userfunc.c:774:2:774:21","This 'call to strcpy' operation requires 5 bytes but the destination is only 1 bytes."
+2945503,"call to strcpy","file:///tmp/GitClone/vim-8.1.0875/src/userfunc.c:795:5:795:23","This 'call to strcpy' operation requires 4 bytes but the destination is only 1 bytes."
