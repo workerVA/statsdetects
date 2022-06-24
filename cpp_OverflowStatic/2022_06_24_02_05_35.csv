@@ -1,0 +1,4 @@
+"ID of error","error","URL for error","msg"
+21786,"sizeof(<expr>)","file:///tmp/GitClone/C_Files/Hotel.c:96:69:96:77","Potential buffer-overflow: 'clasificacion' has size 2 not 3."
+21850,"sizeof(<expr>)","file:///tmp/GitClone/C_Files/Hotel.c:100:69:100:77","Potential buffer-overflow: 'clasificacion' has size 2 not 3."
+21900,"sizeof(<expr>)","file:///tmp/GitClone/C_Files/Hotel.c:104:69:104:77","Potential buffer-overflow: 'clasificacion' has size 2 not 3."

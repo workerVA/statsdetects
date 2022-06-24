@@ -1,0 +1,3 @@
+"ID of error","error","URL for error","msg"
+12465,"access to array","file:///tmp/GitClone/C_Files/Archivos.c:62:5:62:27","Potential buffer-overflow: 'nombreJugador' has size 10 but 'nombreJugador[10]' may be accessed here."
+12634,"access to array","file:///tmp/GitClone/C_Files/Archivos.c:67:5:67:23","Potential buffer-overflow: 'resultado' has size 10 but 'resultado[10]' may be accessed here."
