@@ -1,0 +1,2 @@
+"ID of error","error","URL for error","msg"
+1320,"19","file:///tmp/GitClone/codegen/codegen.c:632:21:632:22","Potential buffer-overflow: 'label' has size 8 not 19."
