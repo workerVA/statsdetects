@@ -1,0 +1,2 @@
+"ID of error","error","URL for error","msg"
+60526,"access to array","file:///tmp/GitClone/exploits/uaf_heap_spray.c:90:5:90:24","Potential buffer-overflow: 'mtext' has size 96 but 'mtext[96]' may be accessed here."
