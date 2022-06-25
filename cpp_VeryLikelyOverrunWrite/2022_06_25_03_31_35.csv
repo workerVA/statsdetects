@@ -1,0 +1,6 @@
+"ID of bw","bw","URL for bw","col1"
+23355,"call to strcpy","file:///tmp/GitClone/checkarg.c:68:4:68:9","This 'call to strcpy' operation requires 3 bytes but the destination is only 1 bytes."
+23414,"call to strcpy","file:///tmp/GitClone/checkarg.c:74:4:74:9","This 'call to strcpy' operation requires 3 bytes but the destination is only 1 bytes."
+23459,"call to strcpy","file:///tmp/GitClone/checkarg.c:79:4:79:9","This 'call to strcpy' operation requires 3 bytes but the destination is only 1 bytes."
+23504,"call to strcpy","file:///tmp/GitClone/checkarg.c:84:4:84:9","This 'call to strcpy' operation requires 3 bytes but the destination is only 1 bytes."
+23549,"call to strcpy","file:///tmp/GitClone/checkarg.c:88:4:88:9","This 'call to strcpy' operation requires 3 bytes but the destination is only 1 bytes."
