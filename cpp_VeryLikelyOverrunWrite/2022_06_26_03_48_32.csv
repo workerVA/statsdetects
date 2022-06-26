@@ -1,0 +1,2 @@
+"ID of bw","bw","URL for bw","col1"
+4538,"call to sprintf","file:///tmp/GitClone/aberturadeconta.c:98:2:98:8","This 'call to sprintf' operation requires 17 bytes but the destination is only 15 bytes."
