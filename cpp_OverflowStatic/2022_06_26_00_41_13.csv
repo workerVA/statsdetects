@@ -1,0 +1,4 @@
+"ID of error","error","URL for error","msg"
+196141,"4","file:///tmp/GitClone/src/hposttra.cc:169:41:169:41","Potential buffer-overflow: 'wordclass' has size 3 not 4."
+197479,"4","file:///tmp/GitClone/src/hposttra.cc:257:41:257:41","Potential buffer-overflow: 'wordclass' has size 3 not 4."
+198406,"4","file:///tmp/GitClone/src/hposttra.cc:303:42:303:42","Potential buffer-overflow: 'wordclass' has size 3 not 4."
