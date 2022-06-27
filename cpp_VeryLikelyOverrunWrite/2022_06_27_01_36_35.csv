@@ -1,0 +1,7 @@
+"ID of bw","bw","URL for bw","col1"
+152216,"& ...","file:///tmp/GitClone/src/common.c:113:57:113:67","This 'sscanf string argument' operation requires 2 bytes but the destination is only 1 bytes."
+291389,"call to sprintf","file:///tmp/GitClone/src/gcmain3.c:279:15:279:21","This 'call to sprintf' operation requires 107 bytes but the destination is only 100 bytes."
+291714,"call to sprintf","file:///tmp/GitClone/src/gcmain3.c:300:17:300:23","This 'call to sprintf' operation requires 105 bytes but the destination is only 100 bytes."
+291870,"call to sprintf","file:///tmp/GitClone/src/gcmain3.c:317:15:317:21","This 'call to sprintf' operation requires 110 bytes but the destination is only 100 bytes."
+292064,"call to sprintf","file:///tmp/GitClone/src/gcmain3.c:337:13:337:19","This 'call to sprintf' operation requires 105 bytes but the destination is only 100 bytes."
+292218,"call to sprintf","file:///tmp/GitClone/src/gcmain3.c:352:11:352:17","This 'call to sprintf' operation requires 103 bytes but the destination is only 100 bytes."
