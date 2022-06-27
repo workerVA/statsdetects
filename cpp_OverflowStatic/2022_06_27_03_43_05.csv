@@ -1,0 +1,5 @@
+"ID of error","error","URL for error","msg"
+105417,"access to array","file:///tmp/GitClone/srcs/termcap/termcap_utils.c:33:7:33:11","Potential buffer-overflow: 'tc' has size 4 but 'tc[4]' may be accessed here."
+105441,"access to array","file:///tmp/GitClone/srcs/termcap/termcap_utils.c:33:22:33:26","Potential buffer-overflow: 'tc' has size 4 but 'tc[5]' may be accessed here."
+105578,"access to array","file:///tmp/GitClone/srcs/termcap/termcap_utils.c:36:7:36:11","Potential buffer-overflow: 'tc' has size 4 but 'tc[4]' may be accessed here."
+105602,"access to array","file:///tmp/GitClone/srcs/termcap/termcap_utils.c:36:22:36:26","Potential buffer-overflow: 'tc' has size 4 but 'tc[5]' may be accessed here."
