@@ -1,0 +1,3 @@
+"ID of error","error","URL for error","msg"
+14071,"access to array","file:///tmp/GitClone/gestione_cpu.c:464:10:464:37","Potential buffer-overflow: 'nome_cpu' has size 6 but 'nome_cpu[6]' may be accessed here."
+14082,"access to array","file:///tmp/GitClone/gestione_cpu.c:464:41:464:51","Potential buffer-overflow: 'nome_cpu' has size 6 but 'nome_cpu[6]' may be accessed here."
