@@ -1,0 +1,3 @@
+"ID of expr1","expr1","URL for expr1","msg"
+41384,"... == ...","file:///tmp/GitClone/src/connection.c:18:5:18:79","Return value of strncpy used in a logical operation."
+50580,"... == ...","file:///tmp/GitClone/src/filesystem.c:774:5:774:58","Return value of strncpy used in a logical operation."
