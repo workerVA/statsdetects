@@ -1,0 +1,3 @@
+"ID of error","error","URL for error","msg"
+4544,"access to array","file:///tmp/GitClone/LectorArchivos.c:263:5:263:14","Potential buffer-overflow: 'inicial' has size 2 but 'inicial[2]' may be accessed here."
+10294,"access to array","file:///tmp/GitClone/listaData.c:271:18:271:31","Potential buffer-overflow: counter 'i' <= 10 but 'codigo' has 7 elements."
