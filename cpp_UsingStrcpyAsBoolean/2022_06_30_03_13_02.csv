@@ -1,0 +1,4 @@
+"ID of expr1","expr1","URL for expr1","msg"
+25075,"! ...","file:///tmp/GitClone/object.c:84:7:84:33","Return value of strcpy used in a logical operation."
+26061,"! ...","file:///tmp/GitClone/player.c:89:7:89:33","Return value of strcpy used in a logical operation."
+28066,"! ...","file:///tmp/GitClone/space.c:82:7:82:32","Return value of strcpy used in a logical operation."
