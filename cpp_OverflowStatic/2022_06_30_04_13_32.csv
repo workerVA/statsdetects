@@ -1,0 +1,5 @@
+"ID of error","error","URL for error","msg"
+10114,"2","file:///tmp/GitClone/Client/main.c:80:31:80:31","Potential buffer-overflow: 'option' has size 1 not 2."
+10543,"2","file:///tmp/GitClone/Client/main.c:119:31:119:31","Potential buffer-overflow: 'option' has size 1 not 2."
+14189,"... + ...","file:///tmp/GitClone/Client/operations.c:369:36:369:57","Potential buffer-overflow: 'receiver' has size 20 not 161."
+14294,"... + ...","file:///tmp/GitClone/Client/operations.c:374:44:374:65","Potential buffer-overflow: 'receiver' has size 20 not 161."
