@@ -131,7 +131,7 @@ with open(pathToListHash) as fileTmp:
                     if os.path.exists("/opt/codeqlmy/codeql-repo/"+languageForWork+"/ql/src/experimental/Security/CWE/CWE-XXX/"):
                         shutil.rmtree("/opt/codeqlmy/codeql-repo/"+languageForWork+"/ql/src/experimental/Security/CWE/CWE-XXX/")
                     if not os.path.exists("/opt/codeqlmy/codeql-repo/"+languageForWork+"/ql/src/experimental/Security/CWE/CWE-XXX/"):
-                        os.system("mkdir /opt/codeqlmy/codeql-repo/"+languageForWork+"/ql/src/experimental/Security/CWE/CWE-XXX/")
+                        os.system("mkdir -p /opt/codeqlmy/codeql-repo/"+languageForWork+"/ql/src/experimental/Security/CWE/CWE-XXX/")
                     os.system("cp "+pathToQuery.splitlines()[0]+" /opt/codeqlmy/codeql-repo/"+languageForWork+"/ql/src/experimental/Security/CWE/CWE-XXX/1.ql")
                     start_time = datetime.now()
 
