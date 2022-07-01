@@ -1,0 +1,2 @@
+"ID of bw","bw","URL for bw","col1"
+37606,"call to strcpy","file:///tmp/GitClone/inimigo/inimigo.c:91:5:91:10","This 'call to strcpy' operation requires 12 bytes but the destination is only 10 bytes."
