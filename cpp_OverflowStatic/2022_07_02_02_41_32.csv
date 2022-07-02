@@ -1,0 +1,2 @@
+"ID of error","error","URL for error","msg"
+82542,"... ? ... : ...","file:///tmp/GitClone/src/backup.c:244:28:244:66","Potential buffer-overflow: 'name' has size 64 not 103."
