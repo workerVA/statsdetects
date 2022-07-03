@@ -1,0 +1,6 @@
+"ID of call","call","URL for call","col1"
+18378,"call to memset","file:///tmp/GitClone/bio.c:152:3:152:8","Call to memset may be deleted by the compiler."
+19584,"call to memset","file:///tmp/GitClone/bio.c:270:3:270:8","Call to memset may be deleted by the compiler."
+20358,"call to memset","file:///tmp/GitClone/bio.c:326:3:326:8","Call to memset may be deleted by the compiler."
+20780,"call to memset","file:///tmp/GitClone/bio.c:344:3:344:8","Call to memset may be deleted by the compiler."
+21060,"call to memset","file:///tmp/GitClone/bio.c:360:3:360:8","Call to memset may be deleted by the compiler."
