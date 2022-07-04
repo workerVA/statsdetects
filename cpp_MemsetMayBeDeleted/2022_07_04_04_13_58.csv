@@ -1,0 +1,6 @@
+"ID of call","call","URL for call","col1"
+1249215,"call to memset","file:///tmp/GitClone/extra/yassl/taocrypt/src/sha.cpp:597:5:597:10","Call to memset may be deleted by the compiler."
+1249233,"call to memset","file:///tmp/GitClone/extra/yassl/taocrypt/src/sha.cpp:598:5:598:10","Call to memset may be deleted by the compiler."
+1258374,"call to memset","file:///tmp/GitClone/extra/yassl/taocrypt/src/sha.cpp:490:5:490:10","Call to memset may be deleted by the compiler."
+1258392,"call to memset","file:///tmp/GitClone/extra/yassl/taocrypt/src/sha.cpp:491:5:491:10","Call to memset may be deleted by the compiler."
+1279148,"call to memset","file:///tmp/GitClone/extra/yassl/taocrypt/src/sha.cpp:413:5:413:10","Call to memset may be deleted by the compiler."
