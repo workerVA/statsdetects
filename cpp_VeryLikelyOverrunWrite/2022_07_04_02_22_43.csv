@@ -1,0 +1,4 @@
+"ID of bw","bw","URL for bw","col1"
+7391546,"filename","file:///tmp/GitClone/scedasd.c:340:61:340:68","This 'sscanf string argument' operation requires 4097 bytes but the destination is only 4096 bytes."
+7405111,"filename","file:///tmp/GitClone/scedasd.c:340:61:340:68","This 'sscanf string argument' operation requires 4097 bytes but the destination is only 4096 bytes."
+7407500,"filename","file:///tmp/GitClone/scedasd.c:340:61:340:68","This 'sscanf string argument' operation requires 4097 bytes but the destination is only 4096 bytes."
