@@ -1,0 +1,2 @@
+"ID of bw","bw","URL for bw","col1"
+697125,"server","file:///tmp/GitClone/source/notice.c:482:5:482:10","This 'sscanf string argument' operation requires 257 bytes but the destination is only 256 bytes."
