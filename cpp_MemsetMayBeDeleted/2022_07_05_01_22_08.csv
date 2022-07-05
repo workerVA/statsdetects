@@ -1,0 +1,6 @@
+"ID of call","call","URL for call","col1"
+25705,"call to memset","file:///tmp/GitClone/src/aes.c:389:2:389:7","Call to memset may be deleted by the compiler."
+26173,"call to memset","file:///tmp/GitClone/src/aes.c:365:2:365:7","Call to memset may be deleted by the compiler."
+26971,"call to memset","file:///tmp/GitClone/src/aes.c:307:2:307:7","Call to memset may be deleted by the compiler."
+27540,"call to memset","file:///tmp/GitClone/src/aes.c:272:2:272:7","Call to memset may be deleted by the compiler."
+180122,"call to memset","file:///tmp/GitClone/src/rc4.c:86:2:86:7","Call to memset may be deleted by the compiler."
