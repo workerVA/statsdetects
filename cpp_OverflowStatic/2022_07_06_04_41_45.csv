@@ -1,0 +1,5 @@
+"ID of error","error","URL for error","msg"
+25358,"access to array","file:///tmp/GitClone/card.c:470:21:470:34","Potential buffer-overflow: 'name' has size 25 but 'name[25]' may be accessed here."
+25923,"access to array","file:///tmp/GitClone/card.c:421:21:421:42","Potential buffer-overflow: 'number' has size 20 but 'number[20]' may be accessed here."
+28937,"access to array","file:///tmp/GitClone/card.c:169:15:169:36","Potential buffer-overflow: 'number' has size 20 but 'number[20]' may be accessed here."
+30112,"access to array","file:///tmp/GitClone/card.c:61:21:61:34","Potential buffer-overflow: 'name' has size 25 but 'name[25]' may be accessed here."
