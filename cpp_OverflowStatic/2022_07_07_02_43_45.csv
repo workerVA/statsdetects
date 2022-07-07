@@ -1,0 +1,3 @@
+"ID of error","error","URL for error","msg"
+59794,"access to array","file:///tmp/GitClone/veiculo_registro.c:24:2:24:16","Potential buffer-overflow: 'prefixo' has size 5 but 'prefixo[5]' may be accessed here."
+59826,"access to array","file:///tmp/GitClone/veiculo_registro.c:25:2:25:14","Potential buffer-overflow: 'data' has size 10 but 'data[10]' may be accessed here."
