@@ -1,0 +1,6 @@
+"ID of error","error","URL for error","msg"
+27946,"access to array","file:///tmp/GitClone/TP3/ex12/ex12.c:31:25:31:33","Potential buffer-overflow: counter 'i' <= 254 but 'chaine' has 7 elements."
+27965,"access to array","file:///tmp/GitClone/TP3/ex12/ex12.c:31:41:31:49","Potential buffer-overflow: counter 'i' <= 254 but 'chaine' has 7 elements."
+28039,"access to array","file:///tmp/GitClone/TP3/ex12/ex12.c:34:32:34:40","Potential buffer-overflow: counter 'i' <= 254 but 'chaine' has 7 elements."
+28072,"access to array","file:///tmp/GitClone/TP3/ex12/ex12.c:34:60:34:68","Potential buffer-overflow: counter 'i' <= 254 but 'chaine' has 7 elements."
+28133,"access to array","file:///tmp/GitClone/TP3/ex12/ex12.c:37:34:37:42","Potential buffer-overflow: counter 'i' <= 254 but 'chaine' has 7 elements."
