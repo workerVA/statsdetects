@@ -1,0 +1,2 @@
+"ID of bw","bw","URL for bw","col1"
+13551,"call to strcat","file:///tmp/GitClone/components/battery.c:156:3:156:8","This 'call to strcat' operation requires 5 bytes but the destination is only 3 bytes."
