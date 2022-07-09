@@ -1,0 +1,2 @@
+"ID of error","error","URL for error","msg"
+255046,"... * ...","file:///tmp/GitClone/src/NLDiffLoc.c:776:40:776:50","Potential buffer-overflow: 'line' has size 1024 not 4096."
