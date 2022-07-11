@@ -1,0 +1,4 @@
+"ID of bw","bw","URL for bw","col1"
+774067,"call to sprintf","file:///tmp/GitClone/kenwood/kenwood.c:2313:7:2313:13","This 'call to sprintf' operation requires 4 bytes but the destination is only 3 bytes."
+775068,"call to sprintf","file:///tmp/GitClone/kenwood/kenwood.c:2269:7:2269:13","This 'call to sprintf' operation requires 7 bytes but the destination is only 6 bytes."
+776777,"call to sprintf","file:///tmp/GitClone/kenwood/kenwood.c:2145:7:2145:13","This 'call to sprintf' operation requires 7 bytes but the destination is only 6 bytes."
