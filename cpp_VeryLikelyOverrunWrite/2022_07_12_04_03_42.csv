@@ -1,0 +1,6 @@
+"ID of bw","bw","URL for bw","col1"
+10932,"call to strcpy","file:///tmp/GitClone/tema2.c:337:5:337:10","This 'call to strcpy' operation requires 4 bytes but the destination is only 3 bytes."
+11531,"call to strcpy","file:///tmp/GitClone/tema2.c:371:19:371:24","This 'call to strcpy' operation requires 4 bytes but the destination is only 3 bytes."
+11555,"call to strcpy","file:///tmp/GitClone/tema2.c:373:19:373:24","This 'call to strcpy' operation requires 4 bytes but the destination is only 3 bytes."
+11866,"call to strcpy","file:///tmp/GitClone/tema2.c:388:19:388:24","This 'call to strcpy' operation requires 4 bytes but the destination is only 3 bytes."
+11890,"call to strcpy","file:///tmp/GitClone/tema2.c:390:19:390:24","This 'call to strcpy' operation requires 4 bytes but the destination is only 3 bytes."
