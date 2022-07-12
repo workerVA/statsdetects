@@ -1,0 +1,3 @@
+"ID of deserializeCall","deserializeCall","URL for deserializeCall","col1"
+4590142,"call to method DeserializeObject<Message>","file:///tmp/GitClone/src/Antauri.Network/PeerToPeerService.cs:70:31:70:71","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
+4590228,"call to method DeserializeObject<List<SimpleBlock>>","file:///tmp/GitClone/src/Antauri.Network/PeerToPeerService.cs:93:33:93:89","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
