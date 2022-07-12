@@ -1,0 +1,4 @@
+"ID of deserializeCall","deserializeCall","URL for deserializeCall","col1"
+5842951,"call to method DeserializeObject<IEnumerable<MeganavEditorEntity>>","file:///tmp/GitClone/src/Our.Umbraco.Meganav/PropertyEditors/MeganavValueEditor.cs:40:28:40:97","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
+5844259,"call to method DeserializeObject<IEnumerable<MeganavEntity>>","file:///tmp/GitClone/src/Our.Umbraco.Meganav/ValueConverters/MeganavValueConverter.cs:47:28:47:91","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
+5845049,"call to method DeserializeObject<IEnumerable<MeganavEntity>>","file:///tmp/GitClone/src/Our.Umbraco.Meganav/ValueReferences/MeganavValueReferenceFactory.cs:23:28:23:97","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
