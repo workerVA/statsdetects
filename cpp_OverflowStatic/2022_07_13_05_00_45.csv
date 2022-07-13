@@ -1,0 +1,3 @@
+"ID of error","error","URL for error","msg"
+39925,"20","file:///tmp/GitClone/src/bill.c:40:37:40:47","Potential buffer-overflow: 'due_date' has size 11 not 20."
+39961,"20","file:///tmp/GitClone/src/bill.c:41:41:41:51","Potential buffer-overflow: 'paid_date' has size 11 not 20."
