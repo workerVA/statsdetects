@@ -1,0 +1,2 @@
+"ID of bw","bw","URL for bw","col1"
+27101,"& ...","file:///tmp/GitClone/main.c:143:18:143:36","This 'scanf string argument' operation requires 4 bytes but the destination is only 3 bytes."
