@@ -1,0 +1,8 @@
+"ID of error","error","URL for error","msg"
+795,"10","file:///tmp/GitClone/lib/administrador.c:610:22:610:23","Potential buffer-overflow: 'id_materia' has size 4 not 10."
+5141,"30","file:///tmp/GitClone/lib/administrador.c:386:99:386:100","Potential buffer-overflow: 'nombre' has size 20 not 30."
+5318,"30","file:///tmp/GitClone/lib/administrador.c:388:101:388:102","Potential buffer-overflow: 'local' has size 5 not 30."
+6135,"10","file:///tmp/GitClone/lib/administrador.c:305:52:305:53","Potential buffer-overflow: 'id' has size 6 not 10."
+6221,"30","file:///tmp/GitClone/lib/administrador.c:309:56:309:57","Potential buffer-overflow: 'nombre' has size 20 not 30."
+6394,"30","file:///tmp/GitClone/lib/administrador.c:317:55:317:56","Potential buffer-overflow: 'local' has size 5 not 30."
+9555,"4","file:///tmp/GitClone/lib/administrador.c:88:19:88:19","Potential buffer-overflow: 'id_prof' has size 3 not 4."
