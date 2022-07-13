@@ -1,0 +1,2 @@
+"ID of error","error","URL for error","msg"
+27994,"82","file:///tmp/GitClone/symbolTable.c:16:21:16:22","Potential buffer-overflow: 'line' has size 81 not 82."
