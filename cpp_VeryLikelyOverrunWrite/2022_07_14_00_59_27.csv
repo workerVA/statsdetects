@@ -1,0 +1,5 @@
+"ID of bw","bw","URL for bw","col1"
+25334,"call to strcpy","file:///tmp/GitClone/mine.c:102:3:102:8","This 'call to strcpy' operation requires 50 bytes but the destination is only 32 bytes."
+25363,"call to strcpy","file:///tmp/GitClone/mine.c:103:3:103:8","This 'call to strcpy' operation requires 50 bytes but the destination is only 32 bytes."
+25391,"call to strcpy","file:///tmp/GitClone/mine.c:104:3:104:8","This 'call to strcpy' operation requires 50 bytes but the destination is only 32 bytes."
+25419,"call to strcpy","file:///tmp/GitClone/mine.c:105:3:105:8","This 'call to strcpy' operation requires 50 bytes but the destination is only 32 bytes."
