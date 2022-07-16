@@ -1,0 +1,2 @@
+"ID of deserializeCall","deserializeCall","URL for deserializeCall","col1"
+5685413,"call to method Deserialize","file:///tmp/GitClone/src/NUnitEngine/nunit.engine.core/Communication/Protocols/BinarySerializationProtocol.cs:117:28:117:74","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
