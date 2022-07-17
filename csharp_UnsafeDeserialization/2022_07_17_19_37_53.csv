@@ -1,0 +1,3 @@
+"ID of deserializeCall","deserializeCall","URL for deserializeCall","col1"
+4454680,"call to method DeserializeObject<String>","file:///tmp/GitClone/CaptionThis/API/ProcessingCallbackController.cs:53:43:53:123","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
+4464725,"call to method DeserializeObject<String>","file:///tmp/GitClone/CaptionThis/Controllers/VideosController.cs:123:47:123:127","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
