@@ -1,0 +1,3 @@
+"ID of deserializeCall","deserializeCall","URL for deserializeCall","col1"
+1527788,"call to method DeserializeObject","file:///tmp/GitClone/Azure/Functions/SignalNow/Auth/AuthenticateAAD.cs:57:39:57:111","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
+1528010,"call to method DeserializeObject","file:///tmp/GitClone/Azure/Functions/SignalNow/Auth/AuthenticateAAD.cs:94:35:94:77","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
