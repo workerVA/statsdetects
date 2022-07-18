@@ -1,0 +1,6 @@
+"ID of deserializeCall","deserializeCall","URL for deserializeCall","col1"
+1889574,"call to method DeserializeObject<AuthorizationError>","file:///tmp/GitClone/Fortnox.NET/Communication/FortnoxAPIClient.cs:60:45:61:165","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
+1889909,"call to method DeserializeObject<AuthorizationError>","file:///tmp/GitClone/Fortnox.NET/Communication/FortnoxAPIClient.cs:97:45:98:165","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
+1890886,"call to method DeserializeObject<ErrorResponse>","file:///tmp/GitClone/Fortnox.NET/Communication/FortnoxAPIClient.cs:229:41:230:161","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
+1891042,"call to method DeserializeObject<T>","file:///tmp/GitClone/Fortnox.NET/Communication/FortnoxAPIClient.cs:256:24:256:149","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
+2076168,"call to method DeserializeObject<WebSocketResponse>","file:///tmp/GitClone/Fortnox.NET/WebSockets/FortnoxWebSocketClient.cs:116:38:116:176","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
