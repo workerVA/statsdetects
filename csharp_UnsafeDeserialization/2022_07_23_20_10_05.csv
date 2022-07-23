@@ -1,0 +1,3 @@
+"ID of deserializeCall","deserializeCall","URL for deserializeCall","col1"
+841086,"call to method DeserializeObject<T>","file:///tmp/GitClone/src/ArmTemplates/Common/Extensions/JsonExtensions.cs:22:71:22:152","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
+841097,"call to method DeserializeObject<T>","file:///tmp/GitClone/src/ArmTemplates/Common/Extensions/JsonExtensions.cs:24:100:24:174","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
