@@ -1,0 +1,2 @@
+"ID of error","error","URL for error","msg"
+1667051,"... + ...","file:///tmp/GitClone/src/client/src/tscParseLineProtocol.c:726:47:726:88","Potential buffer-overflow: 'name' has size 65 not 67."
