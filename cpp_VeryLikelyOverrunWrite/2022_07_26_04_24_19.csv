@@ -1,0 +1,3 @@
+"ID of bw","bw","URL for bw","col1"
+175909,"ip","file:///tmp/GitClone/src/dns_conf.c:1708:54:1708:55","This 'sscanf string argument' operation requires 65 bytes but the destination is only 64 bytes."
+175912,"hostname","file:///tmp/GitClone/src/dns_conf.c:1708:58:1708:65","This 'sscanf string argument' operation requires 257 bytes but the destination is only 256 bytes."
