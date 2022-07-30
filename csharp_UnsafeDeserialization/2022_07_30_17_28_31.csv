@@ -1,0 +1,2 @@
+"ID of deserializeCall","deserializeCall","URL for deserializeCall","col1"
+12198,"call to method DeserializeObject","file:///tmp/GitClone/JsonExporter.cs:148:50:148:88","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
