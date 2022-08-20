@@ -1,0 +1,2 @@
+"ID of deserializeCall","deserializeCall","URL for deserializeCall","col1"
+1665314,"call to method DeserializeObject<T>","file:///tmp/GitClone/index-backup-restore/v10/AzureSearchBackupRestoreIndex/AzureSearchHelper.cs:49:20:49:72","Unsafe deserializer is used. Make sure the value being deserialized comes from a trusted source."
